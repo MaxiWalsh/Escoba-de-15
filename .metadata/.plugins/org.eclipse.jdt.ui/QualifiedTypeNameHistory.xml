@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="ar.edu.unlu.Modelo.Observador"/>
+    <fullyQualifiedTypeName name="ar.edu.unlu.Vistas.VistaConsola"/>
+    <fullyQualifiedTypeName name="ar.edu.unlu.Modelo.EventosEscoba"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="ar.edu.unlu.Modelo.Estado"/>
+    <fullyQualifiedTypeName name="ar.edu.unlu.Modelo.Mazo"/>
+    <fullyQualifiedTypeName name="ar.edu.unlu.Modelo.Mesa"/>
+    <fullyQualifiedTypeName name="ar.edu.unlu.Modelo.Juego"/>
+    <fullyQualifiedTypeName name="ar.edu.unlu.Controlador.Controlador"/>
+    <fullyQualifiedTypeName name="ar.edu.unlu.Modelo.Carta"/>
+    <fullyQualifiedTypeName name="ar.edu.unlu.Vista.VistaConsola"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="ar.edu.unlu.Modelo.Jugador"/>
+</qualifiedTypeNameHistroy>

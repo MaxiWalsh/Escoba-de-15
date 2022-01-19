@@ -1,0 +1,2217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_hHn_YD23Eeyz87Aj3tj8og">
+  <modelElement href="EscobaDe15_2021.uml#_lG9BgEmFEeyyKtPopmqFNw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0Ko6EFH_EeyMo-Y4_C88Kg" sourceAnchor="45.0,127.0" targetAnchor="52.0,0.0" target="_0Ko6GFH_EeyMo-Y4_C88Kg" source="_C1Ul0FIAEeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_m_2b0EmQEeyyKtPopmqFNw"/>
+    <nameVisual xmi:id="_0Ko6EVH_EeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_C64bQFIAEeyMo-Y4_C88Kg" position="2.0,-14.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0Ko6ElH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="palo" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_m_z_kEmQEeyyKtPopmqFNw"/>
+      <visualProperties xmi:id="_C630MFIAEeyMo-Y4_C88Kg" position="-40.0,0.9999999999999964"/>
+      <visibility xmi:id="_0Ko6E1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_0Ko6FFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0Ko6FVH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_m_2b0UmQEeyyKtPopmqFNw"/>
+      <visualProperties xmi:id="_C64bQVIAEeyMo-Y4_C88Kg" position="41.0,-46.0"/>
+      <visibility xmi:id="_0Ko6FlH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_0Ko6F1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1Jnq0FH_EeyMo-Y4_C88Kg" sourceAnchor="0.0,43.0" targetAnchor="293.0,57.0" target="_0Ko6GFH_EeyMo-Y4_C88Kg" source="_1JpgAVH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_m_4RAEmQEeyyKtPopmqFNw"/>
+    <stereotypes xmi:id="_1JoR4lH_EeyMo-Y4_C88Kg" name="Reference">
+      <modelElement href="EscobaDe15_2021.uml#_m_44EEmQEeyyKtPopmqFNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1Jnq0VH_EeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_1LfTEVH_EeyMo-Y4_C88Kg" position="-29.0,-18.99999999999997"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1JoR4FH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_m_4RAUmQEeyyKtPopmqFNw"/>
+      <visualProperties xmi:id="_1LfTEFH_EeyMo-Y4_C88Kg" position="-28.0,-47.000000000000014"/>
+      <visibility xmi:id="_1Jo48VH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1Jo48FH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1JoR4VH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="cartas" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_m_yxcEmQEeyyKtPopmqFNw"/>
+      <visualProperties xmi:id="_1LfTElH_EeyMo-Y4_C88Kg" position="18.0,2.0"/>
+      <visibility xmi:id="_1JpgAFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1Jo48lH_EeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1x7A8FH_EeyMo-Y4_C88Kg" sourceAnchor="125.0,0.0" targetAnchor="144.0,99.0" target="_0Ko6GFH_EeyMo-Y4_C88Kg" source="_1yGnIFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_1vbGkFH_EeyMo-Y4_C88Kg"/>
+    <stereotypes xmi:id="_1x8PE1H_EeyMo-Y4_C88Kg" name="Reference">
+      <modelElement href="EscobaDe15_2021.uml#_1vcUsFH_EeyMo-Y4_C88Kg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1x8PEFH_EeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_12HkcFH_EeyMo-Y4_C88Kg" position="-78.0,-30.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1x8PEVH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_1vbGkVH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_12DTAFH_EeyMo-Y4_C88Kg" position="41.0,-46.0"/>
+      <visibility xmi:id="_1yFZAVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yFZAFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1x8PElH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="cartas" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_1vQHcVH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_12ILgFH_EeyMo-Y4_C88Kg" position="-48.00000000000003,17.0"/>
+      <visibility xmi:id="_1yFZA1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yFZAlH_EeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1x7oAFH_EeyMo-Y4_C88Kg" sourceAnchor="197.0,0.0" targetAnchor="216.0,99.0" target="_0Ko6GFH_EeyMo-Y4_C88Kg" source="_1yGnIFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_1vcUsVH_EeyMo-Y4_C88Kg"/>
+    <stereotypes xmi:id="_1x9dMFH_EeyMo-Y4_C88Kg" name="Reference">
+      <modelElement href="EscobaDe15_2021.uml#_1vhNMFH_EeyMo-Y4_C88Kg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1x8PFFH_EeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_12IykFH_EeyMo-Y4_C88Kg" position="2.0,-4.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1x82IFH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_1vcUslH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_12ILgVH_EeyMo-Y4_C88Kg" position="-56.0,-46.0"/>
+      <visibility xmi:id="_1yGAEVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGAEFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1x82IVH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="baza" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_1vRVkVH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_12IykVH_EeyMo-Y4_C88Kg" position="41.0,1.0"/>
+      <visibility xmi:id="_1yGAE1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGAElH_EeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5O43EFH_EeyMo-Y4_C88Kg" sourceAnchor="190.0,91.0" targetAnchor="0.0,13.0" target="_5PHgkFH_EeyMo-Y4_C88Kg" source="_1JpgAVH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_5L1jEFH_EeyMo-Y4_C88Kg"/>
+    <nameVisual xmi:id="_5O7TUFH_EeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_5YAW0FH_EeyMo-Y4_C88Kg" position="-13.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_5O7TUVH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="mazo" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_5Lp84FH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_5X_IsFH_EeyMo-Y4_C88Kg" position="8.0,2.0"/>
+      <visibility xmi:id="_5PBZ8VH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PBZ8FH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5O7TUlH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_5L1jEVH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_5YAW0VH_EeyMo-Y4_C88Kg" position="-27.0,-47.0"/>
+      <visibility xmi:id="_5PBZ81H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PBZ8lH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5O5eIFH_EeyMo-Y4_C88Kg" sourceAnchor="0.0,289.0" targetAnchor="397.0,191.0" target="_1yGnIFH_EeyMo-Y4_C88Kg" source="_5PHgkFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_5L3YQFH_EeyMo-Y4_C88Kg"/>
+    <stereotypes xmi:id="_5O7TVlH_EeyMo-Y4_C88Kg" name="Reference">
+      <modelElement href="EscobaDe15_2021.uml#_5L3_UFH_EeyMo-Y4_C88Kg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5O7TU1H_EeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_5YAW01H_EeyMo-Y4_C88Kg" position="-5.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_5O7TVFH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_5L3YQVH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_5YAW0lH_EeyMo-Y4_C88Kg" position="-44.0,2.0"/>
+      <visibility xmi:id="_5PBZ9VH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PBZ9FH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5O7TVVH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="jugadores" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_5Lqj8FH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_5YAW1FH_EeyMo-Y4_C88Kg" position="42.0,2.0"/>
+      <visibility xmi:id="_5PCBAVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PCBAFH_EeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5O6FMFH_EeyMo-Y4_C88Kg" sourceAnchor="0.0,417.0" targetAnchor="397.0,319.0" target="_1yGnIFH_EeyMo-Y4_C88Kg" source="_5PHgkFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_5L4mY1H_EeyMo-Y4_C88Kg"/>
+    <stereotypes xmi:id="_5O76Y1H_EeyMo-Y4_C88Kg" name="Reference">
+      <modelElement href="EscobaDe15_2021.uml#_5L5NcFH_EeyMo-Y4_C88Kg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5O76YFH_EeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_5YBk8VH_EeyMo-Y4_C88Kg" position="-5.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_5O76YVH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_5L4mZFH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_5YBk8FH_EeyMo-Y4_C88Kg" position="-30.0,-47.0"/>
+      <visibility xmi:id="_5PCBA1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PCBAlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5O76YlH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="ganador" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_5LtnQVH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_5YBk8lH_EeyMo-Y4_C88Kg" position="36.0,-47.0"/>
+      <visibility xmi:id="_5PCBBVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PCBBFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5O6sQFH_EeyMo-Y4_C88Kg" sourceAnchor="0.0,449.0" targetAnchor="397.0,351.0" target="_1yGnIFH_EeyMo-Y4_C88Kg" source="_5PHgkFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_5L5NcVH_EeyMo-Y4_C88Kg"/>
+    <stereotypes xmi:id="_5O76Z1H_EeyMo-Y4_C88Kg" name="Reference">
+      <modelElement href="EscobaDe15_2021.uml#_5L50gFH_EeyMo-Y4_C88Kg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5O76ZFH_EeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_5YCzEFH_EeyMo-Y4_C88Kg" position="23.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_5O76ZVH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_5L5NclH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_5YCMAFH_EeyMo-Y4_C88Kg" position="-30.0,2.0"/>
+      <visibility xmi:id="_5PCBB1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PCBBlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5O76ZlH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="ganadorRonda" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_5LtnQlH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_5YCzEVH_EeyMo-Y4_C88Kg" position="48.0,2.0"/>
+      <visibility xmi:id="_5PCoEFH_EeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_5PCBCFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5O6sQVH_EeyMo-Y4_C88Kg" sourceAnchor="0.0,257.0" targetAnchor="397.0,159.0" target="_1yGnIFH_EeyMo-Y4_C88Kg" source="_5PHgkFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_5L6bkFH_EeyMo-Y4_C88Kg"/>
+    <stereotypes xmi:id="_5O8hcFH_EeyMo-Y4_C88Kg" name="Reference">
+      <modelElement href="EscobaDe15_2021.uml#_5L7CoFH_EeyMo-Y4_C88Kg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5O76aFH_EeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_5YDaIVH_EeyMo-Y4_C88Kg" position="-5.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_5O76aVH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_5L6bkVH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_5YDaIFH_EeyMo-Y4_C88Kg" position="-30.0,-47.0"/>
+      <visibility xmi:id="_5PCoE1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PCoElH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5O76alH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="ultimoJugadorEnLevantar" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_5LuOUFH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_5YDaIlH_EeyMo-Y4_C88Kg" position="29.0,-46.99999999999994"/>
+      <visibility xmi:id="_5PCoFVH_EeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_5PCoFFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5PFrYFH_EeyMo-Y4_C88Kg" sourceAnchor="0.0,43.0" targetAnchor="334.0,389.0" target="_5PHgkFH_EeyMo-Y4_C88Kg" source="_AztTYFIAEeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_5L1jElH_EeyMo-Y4_C88Kg"/>
+    <nameVisual xmi:id="_5PFrYVH_EeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_A5hngFIAEeyMo-Y4_C88Kg" position="-16.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_5PFrYlH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="ronda" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_5LrLAFH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_A5hAcFIAEeyMo-Y4_C88Kg" position="-48.0,-47.0"/>
+      <visibility xmi:id="_5PFrY1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PFrZFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5PFrZVH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_5L1jE1H_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_A5hngVIAEeyMo-Y4_C88Kg" position="25.0,2.0"/>
+      <visibility xmi:id="_5PFrZlH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PFrZ1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5PFraFH_EeyMo-Y4_C88Kg" sourceAnchor="0.0,85.0" targetAnchor="334.0,249.0" target="_5PHgkFH_EeyMo-Y4_C88Kg" source="_-KFlwFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_5L1jFFH_EeyMo-Y4_C88Kg"/>
+    <nameVisual xmi:id="_5PFraVH_EeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_-SWw8FH_EeyMo-Y4_C88Kg" position="0.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_5PFralH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="reglas" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_5LrLAVH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_-SWJ4FH_EeyMo-Y4_C88Kg" position="-36.0,46.0"/>
+      <visibility xmi:id="_5PFra1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PFrbFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5PFrbVH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_5L1jFVH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_-SWw8VH_EeyMo-Y4_C88Kg" position="7.0,-47.0"/>
+      <visibility xmi:id="_5PFrblH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PFrb1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5PGScFH_EeyMo-Y4_C88Kg" sourceAnchor="0.0,84.0" targetAnchor="334.0,45.0" target="_5PHgkFH_EeyMo-Y4_C88Kg" source="_8QqmBFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_5L2KIFH_EeyMo-Y4_C88Kg"/>
+    <nameVisual xmi:id="_5PGScVH_EeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_8YEOgFH_EeyMo-Y4_C88Kg" position="-16.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_5PGSclH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="mesa" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_5LrLAlH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_8YDncVH_EeyMo-Y4_C88Kg" position="-45.0,-47.0"/>
+      <visibility xmi:id="_5PGSc1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PGSdFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5PGSdVH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_5L2KIVH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_8YE1kFH_EeyMo-Y4_C88Kg" position="24.0,2.0"/>
+      <visibility xmi:id="_5PGSdlH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PGSd1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_5PG5gFH_EeyMo-Y4_C88Kg" source="_5PHgkFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_5L4mYFH_EeyMo-Y4_C88Kg"/>
+    <stereotypes xmi:id="_5PG5gVH_EeyMo-Y4_C88Kg" name="Reference">
+      <modelElement href="EscobaDe15_2021.uml#_5L4mYlH_EeyMo-Y4_C88Kg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_5PG5glH_EeyMo-Y4_C88Kg" text=""/>
+    <sourceRole xmi:id="_5PG5g1H_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_5L4mYVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PG5hFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PG5hVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_5PG5hlH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="observadores" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_5LrLA1H_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PG5h1H_EeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_5PG5iFH_EeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_8QoJwFH_EeyMo-Y4_C88Kg" sourceAnchor="143.0,0.0" targetAnchor="144.0,0.0" target="_0Ko6GFH_EeyMo-Y4_C88Kg" source="_8QqmBFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_m_3C4EmQEeyyKtPopmqFNw"/>
+    <bendpoints xmi:id="_KxAC8FIAEeyMo-Y4_C88Kg" sourceY="-68" targetX="1032" targetY="-14"/>
+    <bendpoints xmi:id="_KxAC8VIAEeyMo-Y4_C88Kg" sourceX="-1032" sourceY="-69" targetY="-15"/>
+    <stereotypes xmi:id="_8QpX4lH_EeyMo-Y4_C88Kg" name="Reference">
+      <modelElement href="EscobaDe15_2021.uml#_m_3p8EmQEeyyKtPopmqFNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_8Qow0FH_EeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_8YDAYVH_EeyMo-Y4_C88Kg" position="-62.999999999999886,2.000000000000007"/>
+    </nameVisual>
+    <sourceRole xmi:id="_8QpX4FH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_m_3C4UmQEeyyKtPopmqFNw"/>
+      <visualProperties xmi:id="_8YDAYFH_EeyMo-Y4_C88Kg" position="-56.0,-66.99999999999999"/>
+      <visibility xmi:id="_8QqmAVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_8QqmAFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_8QpX4VH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="cartas" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_m_xjUEmQEeyyKtPopmqFNw"/>
+      <visualProperties xmi:id="_8YDncFH_EeyMo-Y4_C88Kg" position="90.00000000000011,-62.0"/>
+      <visibility xmi:id="_8QqmA1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_8QqmAlH_EeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-KCicFH_EeyMo-Y4_C88Kg" sourceAnchor="216.0,149.0" targetAnchor="202.0,0.0" target="_AztTYFIAEeyMo-Y4_C88Kg" source="_-KFlwFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_-G4gwFH_EeyMo-Y4_C88Kg"/>
+    <stereotypes xmi:id="_-KEXolH_EeyMo-Y4_C88Kg" name="Reference">
+      <modelElement href="EscobaDe15_2021.uml#_-G5H0FH_EeyMo-Y4_C88Kg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-KDwkFH_EeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_A5fLQVIAEeyMo-Y4_C88Kg" position="-78.0,-10.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_-KEXoFH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_-G4gwVH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_A5fLQFIAEeyMo-Y4_C88Kg" position="2.0,-6.0"/>
+      <visibility xmi:id="_-KE-sVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_-KE-sFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-KEXoVH_EeyMo-Y4_C88Kg" aggregationKind="NONE" name="ronda" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_-G2rkFH_EeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_A5fyUFIAEeyMo-Y4_C88Kg" position="-48.0,-39.0"/>
+      <visibility xmi:id="_-KE-s1H_EeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_-KE-slH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Aznz0FIAEeyMo-Y4_C88Kg" sourceAnchor="197.0,384.0" targetAnchor="202.0,207.0" target="_AztTYFIAEeyMo-Y4_C88Kg" source="_1yGnIFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_AwVPRFIAEeyMo-Y4_C88Kg"/>
+    <bendpoints xmi:id="_Kw-00FIAEeyMo-Y4_C88Kg" sourceY="309" targetX="-1020" targetY="238"/>
+    <bendpoints xmi:id="_Kw-00VIAEeyMo-Y4_C88Kg" sourceX="1020" sourceY="273" targetY="202"/>
+    <nameVisual xmi:id="_AzpB8FIAEeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_A5dWEFIAEeyMo-Y4_C88Kg" position="40.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_AzppAFIAEeyMo-Y4_C88Kg" aggregationKind="NONE" name="ultimoJugadorEnLevantar" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_AwTaEFIAEeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_A5cvAFIAEeyMo-Y4_C88Kg" position="-152.0,34.0"/>
+      <visibility xmi:id="_AzreMVIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_AzreMFIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AzppAVIAEeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_AwV2UFIAEeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_A5d9IFIAEeyMo-Y4_C88Kg" position="2.0,34.0"/>
+      <visibility xmi:id="_AzreM1IAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_AzreMlIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Azoa4FIAEeyMo-Y4_C88Kg" sourceAnchor="230.0,0.0" targetAnchor="244.0,149.0" target="_-KFlwFH_EeyMo-Y4_C88Kg" source="_AztTYFIAEeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_AwWdYFIAEeyMo-Y4_C88Kg"/>
+    <stereotypes xmi:id="_AzppBVIAEeyMo-Y4_C88Kg" name="Reference">
+      <modelElement href="EscobaDe15_2021.uml#_AwXEcFIAEeyMo-Y4_C88Kg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_AzppAlIAEeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_A5gZYFIAEeyMo-Y4_C88Kg" position="46.0,-1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_AzppA1IAEeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_AwWdYVIAEeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_A5fyUVIAEeyMo-Y4_C88Kg" position="-17.0,-39.0"/>
+      <visibility xmi:id="_AzsFQVIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_AzsFQFIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AzppBFIAEeyMo-Y4_C88Kg" aggregationKind="NONE" name="reglas" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_AwTaEVIAEeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_A5gZYVIAEeyMo-Y4_C88Kg" position="2.0,-6.0"/>
+      <visibility xmi:id="_AzsFQ1IAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_AzsFQlIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Fv_AIFIAEeyMo-Y4_C88Kg" sourceAnchor="0.0,374.0" targetAnchor="334.0,142.0" target="_5PHgkFH_EeyMo-Y4_C88Kg" source="_FwJ_QFIAEeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_FruyQFIAEeyMo-Y4_C88Kg"/>
+    <stereotypes xmi:id="_FwBcYlIAEeyMo-Y4_C88Kg" name="Reference">
+      <modelElement href="EscobaDe15_2021.uml#_FrvZUFIAEeyMo-Y4_C88Kg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_FwA1UVIAEeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_F3WMYVIAEeyMo-Y4_C88Kg" position="-18.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_FwBcYFIAEeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_FruyQVIAEeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_F3WMYFIAEeyMo-Y4_C88Kg" position="-31.0,-47.0"/>
+      <visibility xmi:id="_FwGU4VIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwGU4FIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_FwBcYVIAEeyMo-Y4_C88Kg" aggregationKind="NONE" name="juego" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_FrndgFIAEeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_F3WMYlIAEeyMo-Y4_C88Kg" position="6.0,-33.00000000000023"/>
+      <visibility xmi:id="_FwGU41IAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_FwGU4lIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_FwA1UFIAEeyMo-Y4_C88Kg" dashed="true" subClass="_FwJ_QFIAEeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_FrceYFIAEeyMo-Y4_C88Kg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_FwJYMFIAEeyMo-Y4_C88Kg" sourceAnchor="240.0,491.0" targetAnchor="145.0,0.0" target="_KEe7MFIAEeyMo-Y4_C88Kg" source="_FwJ_QFIAEeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_FrwAYFIAEeyMo-Y4_C88Kg"/>
+    <stereotypes xmi:id="_FwJYMVIAEeyMo-Y4_C88Kg" name="Reference">
+      <modelElement href="EscobaDe15_2021.uml#_FrwncFIAEeyMo-Y4_C88Kg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_FwJYMlIAEeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_KRSBEFIAEeyMo-Y4_C88Kg" position="-18.5,-40.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_FwJYM1IAEeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_FrwAYVIAEeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_KRRaAFIAEeyMo-Y4_C88Kg" position="-56.0,1.0"/>
+      <visibility xmi:id="_FwJYNFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJYNVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_FwJYNlIAEeyMo-Y4_C88Kg" aggregationKind="NONE" name="vista" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_FroroFIAEeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_KRSBEVIAEeyMo-Y4_C88Kg" position="-41.0,-48.0"/>
+      <visibility xmi:id="_FwJYN1IAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_FwJYOFIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_KEYNgFIAEeyMo-Y4_C88Kg" sourceAnchor="175.0,0.0" targetAnchor="270.0,491.0" target="_FwJ_QFIAEeyMo-Y4_C88Kg" source="_KEe7MFIAEeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_J_TgQFIAEeyMo-Y4_C88Kg"/>
+    <stereotypes xmi:id="_KEZbo1IAEeyMo-Y4_C88Kg" name="Reference">
+      <modelElement href="EscobaDe15_2021.uml#_J_UHUFIAEeyMo-Y4_C88Kg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_KEZboFIAEeyMo-Y4_C88Kg" text="">
+      <visualProperties xmi:id="_KRTPMFIAEeyMo-Y4_C88Kg" position="2.0,-14.399999999999977"/>
+    </nameVisual>
+    <sourceRole xmi:id="_KEZboVIAEeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_J_TgQVIAEeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_KRSoIFIAEeyMo-Y4_C88Kg" position="-17.0,-58.0"/>
+      <visibility xmi:id="_KEb34VIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_KEb34FIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_KEZbolIAEeyMo-Y4_C88Kg" aggregationKind="NONE" name="controlador" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_J_OAsFIAEeyMo-Y4_C88Kg"/>
+      <visualProperties xmi:id="_KRTPMVIAEeyMo-Y4_C88Kg" position="41.0,1.0"/>
+      <visibility xmi:id="_KEb341IAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_KEb34lIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_KEeUIFIAEeyMo-Y4_C88Kg" source="_KEe7MFIAEeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_J_UHUVIAEeyMo-Y4_C88Kg"/>
+    <stereotypes xmi:id="_KEeUIVIAEeyMo-Y4_C88Kg" name="Reference">
+      <modelElement href="EscobaDe15_2021.uml#_J_UuYFIAEeyMo-Y4_C88Kg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_KEeUIlIAEeyMo-Y4_C88Kg" text=""/>
+    <sourceRole xmi:id="_KEeUI1IAEeyMo-Y4_C88Kg" aggregationKind="NONE" name="">
+      <modelElement href="EscobaDe15_2021.uml#_J_UHUlIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEeUJFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_KEeUJVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_KEeUJlIAEeyMo-Y4_C88Kg" aggregationKind="NONE" name="teclado" navigable="true">
+      <modelElement href="EscobaDe15_2021.uml#_J_OnwVIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEeUJ1IAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_KEeUKFIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0Ko6GFH_EeyMo-Y4_C88Kg" name="Carta" associationsIn="_0Ko6EFH_EeyMo-Y4_C88Kg _1Jnq0FH_EeyMo-Y4_C88Kg _1x7A8FH_EeyMo-Y4_C88Kg _1x7oAFH_EeyMo-Y4_C88Kg _8QoJwFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+    <visualProperties xmi:id="_0Ko6GVH_EeyMo-Y4_C88Kg" position="16.0,27.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0Ko6GlH_EeyMo-Y4_C88Kg" label="+"/>
+    <attributes xmi:id="_0Ko6G1H_EeyMo-Y4_C88Kg" name="numero">
+      <modelElement href="EscobaDe15_2021.uml#_m_zYgUmQEeyyKtPopmqFNw"/>
+      <visibility xmi:id="_0Ko6HFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_0Ko6HVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_0Ko6HlH_EeyMo-Y4_C88Kg" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0Ko6H1H_EeyMo-Y4_C88Kg" name="palo">
+      <modelElement href="EscobaDe15_2021.uml#_m_z_kEmQEeyyKtPopmqFNw"/>
+      <visibility xmi:id="_0Ko6IFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_0Ko6IVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_0Ko6IlH_EeyMo-Y4_C88Kg" name="Palo">
+        <modelElement href="EscobaDe15_2021.uml#_m_LGYEmQEeyyKtPopmqFNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0Ko6I1H_EeyMo-Y4_C88Kg" name="mostrarCarta">
+      <modelElement href="EscobaDe15_2021.uml#_m_UQUEmQEeyyKtPopmqFNw"/>
+      <visibility xmi:id="_0Ko6JFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_0Ko6JVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0Ko6JlH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_m_UQUUmQEeyyKtPopmqFNw"/>
+        <type xmi:id="_0Ko6J1H_EeyMo-Y4_C88Kg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0Ko6KFH_EeyMo-Y4_C88Kg" name="Carta">
+      <modelElement href="EscobaDe15_2021.uml#_m_vuIEmQEeyyKtPopmqFNw"/>
+      <keywords xmi:id="_0Ko6KVH_EeyMo-Y4_C88Kg" keyword="create"/>
+      <visibility xmi:id="_0Ko6KlH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_0Ko6K1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0Ko6LFH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_m_wVMEmQEeyyKtPopmqFNw"/>
+        <type xmi:id="_0Ko6LVH_EeyMo-Y4_C88Kg" name="Carta">
+          <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0Ko6LlH_EeyMo-Y4_C88Kg" name="numero">
+        <modelElement href="EscobaDe15_2021.uml#_m_vuIUmQEeyyKtPopmqFNw"/>
+        <cardinality xmi:id="_0Ko6L1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_0Ko6MFH_EeyMo-Y4_C88Kg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0Ko6MVH_EeyMo-Y4_C88Kg" name="palo">
+        <modelElement href="EscobaDe15_2021.uml#_m_vuIkmQEeyyKtPopmqFNw"/>
+        <cardinality xmi:id="_0Ko6MlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_0Ko6M1H_EeyMo-Y4_C88Kg" name="Palo">
+          <modelElement href="EscobaDe15_2021.uml#_m_LGYEmQEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1yGnIFH_EeyMo-Y4_C88Kg" name="Jugador" associationsIn="_5O5eIFH_EeyMo-Y4_C88Kg _5O6FMFH_EeyMo-Y4_C88Kg _5O6sQFH_EeyMo-Y4_C88Kg _5O6sQVH_EeyMo-Y4_C88Kg" associationsOut="_1x7A8FH_EeyMo-Y4_C88Kg _1x7oAFH_EeyMo-Y4_C88Kg _Aznz0FIAEeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_1ust0FH_EeyMo-Y4_C88Kg"/>
+    <visualProperties xmi:id="_1yGnIVH_EeyMo-Y4_C88Kg" position="35.0,217.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1yGnIlH_EeyMo-Y4_C88Kg" label="+"/>
+    <attributes xmi:id="_1yGnI1H_EeyMo-Y4_C88Kg" name="nombre">
+      <modelElement href="EscobaDe15_2021.uml#_1vO5UFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGnJFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGnJVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_1yGnJlH_EeyMo-Y4_C88Kg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1yGnJ1H_EeyMo-Y4_C88Kg" name="puntos">
+      <modelElement href="EscobaDe15_2021.uml#_1vPgYFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGnKFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGnKVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_1yGnKlH_EeyMo-Y4_C88Kg" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1yGnK1H_EeyMo-Y4_C88Kg" name="escobas">
+      <modelElement href="EscobaDe15_2021.uml#_1vQHcFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGnLFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGnLVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_1yGnLlH_EeyMo-Y4_C88Kg" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1yGnL1H_EeyMo-Y4_C88Kg" defaultValue="new ArrayList&lt;>()" name="cartas">
+      <modelElement href="EscobaDe15_2021.uml#_1vQHcVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGnMFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGnMVH_EeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_1yGnMlH_EeyMo-Y4_C88Kg" name="Carta">
+        <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1yGnM1H_EeyMo-Y4_C88Kg" defaultValue="false" name="turno">
+      <modelElement href="EscobaDe15_2021.uml#_1vQuglH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGnNFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGnNVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_1yGnNlH_EeyMo-Y4_C88Kg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1yGnN1H_EeyMo-Y4_C88Kg" defaultValue="new ArrayList&lt;>()" name="baza">
+      <modelElement href="EscobaDe15_2021.uml#_1vRVkVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGnOFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGnOVH_EeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_1yGnOlH_EeyMo-Y4_C88Kg" name="Carta">
+        <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1yGnO1H_EeyMo-Y4_C88Kg" name="Jugador">
+      <modelElement href="EscobaDe15_2021.uml#_1ut78FH_EeyMo-Y4_C88Kg"/>
+      <keywords xmi:id="_1yGnPFH_EeyMo-Y4_C88Kg" keyword="create"/>
+      <visibility xmi:id="_1yGnPVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGnPlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1yGnP1H_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_1uujAVH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_1yGnQFH_EeyMo-Y4_C88Kg" name="Jugador">
+          <modelElement href="EscobaDe15_2021.uml#_1ust0FH_EeyMo-Y4_C88Kg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1yGnQVH_EeyMo-Y4_C88Kg" name="nombre">
+        <modelElement href="EscobaDe15_2021.uml#_1ut78VH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_1yGnQlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_1yGnQ1H_EeyMo-Y4_C88Kg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1yGnRFH_EeyMo-Y4_C88Kg" name="tirarCarta">
+      <modelElement href="EscobaDe15_2021.uml#_1uvKEFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGnRVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGnRlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1yGnR1H_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_1vGWclH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_1yGnSFH_EeyMo-Y4_C88Kg" name="Carta">
+          <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1yGnSVH_EeyMo-Y4_C88Kg" name="numero">
+        <modelElement href="EscobaDe15_2021.uml#_1uvKEVH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_1yGnSlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_1yGnS1H_EeyMo-Y4_C88Kg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1yGnTFH_EeyMo-Y4_C88Kg" name="recuperarCarta">
+      <modelElement href="EscobaDe15_2021.uml#_1uvxIFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGnTVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGnTlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1yGnT1H_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_1vILoVH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_1yGnUFH_EeyMo-Y4_C88Kg" name="Carta">
+          <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1yGnUVH_EeyMo-Y4_C88Kg" name="numero">
+        <modelElement href="EscobaDe15_2021.uml#_1uvxIVH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_1yGnUlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_1yGnU1H_EeyMo-Y4_C88Kg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1yGnVFH_EeyMo-Y4_C88Kg" name="incrementarPuntos">
+      <modelElement href="EscobaDe15_2021.uml#_1uvxIlH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGnVVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGnVlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1yGnV1H_EeyMo-Y4_C88Kg" name="mostrarMano">
+      <modelElement href="EscobaDe15_2021.uml#_1uvxI1H_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGnWFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGnWVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1yGnWlH_EeyMo-Y4_C88Kg" name="mostrarBaza">
+      <modelElement href="EscobaDe15_2021.uml#_1uwYMFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGnW1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGnXFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1yGnXVH_EeyMo-Y4_C88Kg" name="limpiarMano">
+      <modelElement href="EscobaDe15_2021.uml#_1uwYMVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGnXlH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGnX1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1yGnYFH_EeyMo-Y4_C88Kg" name="limpiarBaza">
+      <modelElement href="EscobaDe15_2021.uml#_1uwYMlH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGnYVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGnYlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1yGnY1H_EeyMo-Y4_C88Kg" name="cantidadDeCartas">
+      <modelElement href="EscobaDe15_2021.uml#_1uwYM1H_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGnZFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGnZVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1yGnZlH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_1uwYNFH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_1yGnZ1H_EeyMo-Y4_C88Kg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1yGnaFH_EeyMo-Y4_C88Kg" name="sacarCarta">
+      <modelElement href="EscobaDe15_2021.uml#_1uw_QFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGnaVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGnalH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1yGna1H_EeyMo-Y4_C88Kg" name="numero">
+        <modelElement href="EscobaDe15_2021.uml#_1uw_QVH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_1yGnbFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_1yGnbVH_EeyMo-Y4_C88Kg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1yGnblH_EeyMo-Y4_C88Kg" name="aumentarEscobas">
+      <modelElement href="EscobaDe15_2021.uml#_1uw_QlH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGnb1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGncFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1yGncVH_EeyMo-Y4_C88Kg" name="agregarCartas">
+      <modelElement href="EscobaDe15_2021.uml#_1vGWcFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGnclH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGnc1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1yGndFH_EeyMo-Y4_C88Kg" name="carta">
+        <modelElement href="EscobaDe15_2021.uml#_1vGWcVH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_1yGndVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_1yGndlH_EeyMo-Y4_C88Kg" name="Carta">
+          <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1yGnd1H_EeyMo-Y4_C88Kg" name="levantarCartas">
+      <modelElement href="EscobaDe15_2021.uml#_1vG9gFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGneFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGneVH_EeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1yGnelH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_1vG9g1H_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_1yGne1H_EeyMo-Y4_C88Kg" name="Carta">
+          <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1yGnfFH_EeyMo-Y4_C88Kg" name="numero">
+        <modelElement href="EscobaDe15_2021.uml#_1vG9gVH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_1yGnfVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_1yGnflH_EeyMo-Y4_C88Kg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1yGnf1H_EeyMo-Y4_C88Kg" name="cartasMesa">
+        <modelElement href="EscobaDe15_2021.uml#_1vG9glH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_1yGngFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_1yGngVH_EeyMo-Y4_C88Kg" name="List">
+          <modelElement href="EscobaDe15_2021.uml#_lJYDYEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1yGnglH_EeyMo-Y4_C88Kg" name="agregarABaza">
+      <modelElement href="EscobaDe15_2021.uml#_1vIysFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_1yGng1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1yGnhFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1yGnhVH_EeyMo-Y4_C88Kg" name="cartas">
+        <modelElement href="EscobaDe15_2021.uml#_1vIysVH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_1yGnhlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_1yGnh1H_EeyMo-Y4_C88Kg" name="List">
+          <modelElement href="EscobaDe15_2021.uml#_lJYDYEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1JpgAVH_EeyMo-Y4_C88Kg" name="Mazo" associationsOut="_1Jnq0FH_EeyMo-Y4_C88Kg _5O43EFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_m_PX0EmQEeyyKtPopmqFNw"/>
+    <visualProperties xmi:id="_1JpgAlH_EeyMo-Y4_C88Kg" position="410.0,41.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1JpgA1H_EeyMo-Y4_C88Kg" label="+"/>
+    <attributes xmi:id="_1JpgBFH_EeyMo-Y4_C88Kg" defaultValue="new ArrayList&lt;>()" name="cartas">
+      <modelElement href="EscobaDe15_2021.uml#_m_yxcEmQEeyyKtPopmqFNw"/>
+      <visibility xmi:id="_1JpgBVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1JpgBlH_EeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_1JpgB1H_EeyMo-Y4_C88Kg" name="Carta">
+        <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1JpgCFH_EeyMo-Y4_C88Kg" name="Mazo">
+      <modelElement href="EscobaDe15_2021.uml#_m_Ql8EmQEeyyKtPopmqFNw"/>
+      <keywords xmi:id="_1JpgCVH_EeyMo-Y4_C88Kg" keyword="create"/>
+      <visibility xmi:id="_1JpgClH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1JpgC1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1JpgDFH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_m_Ql80mQEeyyKtPopmqFNw"/>
+        <type xmi:id="_1JpgDVH_EeyMo-Y4_C88Kg" name="Mazo">
+          <modelElement href="EscobaDe15_2021.uml#_m_PX0EmQEeyyKtPopmqFNw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1JpgDlH_EeyMo-Y4_C88Kg" name="llenarMazo">
+      <modelElement href="EscobaDe15_2021.uml#_m_Ql9EmQEeyyKtPopmqFNw"/>
+      <visibility xmi:id="_1JpgD1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1JpgEFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1JpgEVH_EeyMo-Y4_C88Kg" name="cantidadDeCartas">
+      <modelElement href="EscobaDe15_2021.uml#_m_RNAEmQEeyyKtPopmqFNw"/>
+      <visibility xmi:id="_1JpgElH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1JpgE1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1JpgFFH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_m_RNAUmQEeyyKtPopmqFNw"/>
+        <type xmi:id="_1JpgFVH_EeyMo-Y4_C88Kg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1JpgFlH_EeyMo-Y4_C88Kg" name="mezclarMazo">
+      <modelElement href="EscobaDe15_2021.uml#_m_RNAkmQEeyyKtPopmqFNw"/>
+      <visibility xmi:id="_1JpgF1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1JpgGFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1JpgGVH_EeyMo-Y4_C88Kg" name="darCarta">
+      <modelElement href="EscobaDe15_2021.uml#_m_R0EEmQEeyyKtPopmqFNw"/>
+      <visibility xmi:id="_1JpgGlH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_1JpgG1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1JpgHFH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_m_vHEEmQEeyyKtPopmqFNw"/>
+        <type xmi:id="_1JpgHVH_EeyMo-Y4_C88Kg" name="Carta">
+          <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5PHgkFH_EeyMo-Y4_C88Kg" name="Juego" associationsIn="_5O43EFH_EeyMo-Y4_C88Kg _5PFrYFH_EeyMo-Y4_C88Kg _5PFraFH_EeyMo-Y4_C88Kg _5PGScFH_EeyMo-Y4_C88Kg _Fv_AIFIAEeyMo-Y4_C88Kg" associationsOut="_5O5eIFH_EeyMo-Y4_C88Kg _5O6FMFH_EeyMo-Y4_C88Kg _5O6sQFH_EeyMo-Y4_C88Kg _5O6sQVH_EeyMo-Y4_C88Kg _5PG5gFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_5KgGUFH_EeyMo-Y4_C88Kg"/>
+    <visualProperties xmi:id="_5PHgkVH_EeyMo-Y4_C88Kg" position="667.0,119.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_5PHgklH_EeyMo-Y4_C88Kg" label="+"/>
+    <attributes xmi:id="_5PHgk1H_EeyMo-Y4_C88Kg" name="mazo">
+      <modelElement href="EscobaDe15_2021.uml#_5Lp84FH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHglFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHglVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_5PHgllH_EeyMo-Y4_C88Kg" name="Mazo">
+        <modelElement href="EscobaDe15_2021.uml#_m_PX0EmQEeyyKtPopmqFNw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5PHgl1H_EeyMo-Y4_C88Kg" defaultValue="new ArrayList&lt;>()" name="jugadores">
+      <modelElement href="EscobaDe15_2021.uml#_5Lqj8FH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHgmFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHgmVH_EeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_5PHgmlH_EeyMo-Y4_C88Kg" name="Jugador">
+        <modelElement href="EscobaDe15_2021.uml#_1ust0FH_EeyMo-Y4_C88Kg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5PHgm1H_EeyMo-Y4_C88Kg" name="ronda">
+      <modelElement href="EscobaDe15_2021.uml#_5LrLAFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHgnFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHgnVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_5PHgnlH_EeyMo-Y4_C88Kg" name="Ronda">
+        <modelElement href="EscobaDe15_2021.uml#_5LiBEFH_EeyMo-Y4_C88Kg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5PHgn1H_EeyMo-Y4_C88Kg" name="reglas">
+      <modelElement href="EscobaDe15_2021.uml#_5LrLAVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHgoFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHgoVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_5PHgolH_EeyMo-Y4_C88Kg" name="Reglas">
+        <modelElement href="EscobaDe15_2021.uml#_5LjPMFH_EeyMo-Y4_C88Kg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5PHgo1H_EeyMo-Y4_C88Kg" name="mesa">
+      <modelElement href="EscobaDe15_2021.uml#_5LrLAlH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHgpFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHgpVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_5PHgplH_EeyMo-Y4_C88Kg" name="Mesa">
+        <modelElement href="EscobaDe15_2021.uml#_m_M7kEmQEeyyKtPopmqFNw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5PHgp1H_EeyMo-Y4_C88Kg" defaultValue="new ArrayList&lt;>()" name="observadores">
+      <modelElement href="EscobaDe15_2021.uml#_5LrLA1H_EeyMo-Y4_C88Kg"/>
+      <stereotypes xmi:id="_5PHgqFH_EeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_5LryEVH_EeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <visibility xmi:id="_5PHgqVH_EeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_5PHgqlH_EeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_5PHgq1H_EeyMo-Y4_C88Kg" name="Observador">
+        <modelElement href="EscobaDe15_2021.uml#_5LkdUFH_EeyMo-Y4_C88Kg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5PHgrFH_EeyMo-Y4_C88Kg" defaultValue="Estado.CONFIGURANDO" name="estadoJuego">
+      <modelElement href="EscobaDe15_2021.uml#_5LryElH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHgrVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHgrlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_5PHgr1H_EeyMo-Y4_C88Kg" name="Estado">
+        <modelElement href="EscobaDe15_2021.uml#_5LlEYFH_EeyMo-Y4_C88Kg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5PHgsFH_EeyMo-Y4_C88Kg" name="jugadorActual">
+      <modelElement href="EscobaDe15_2021.uml#_5LsZIFH_EeyMo-Y4_C88Kg"/>
+      <stereotypes xmi:id="_5PHgsVH_EeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_5LsZIVH_EeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <visibility xmi:id="_5PHgslH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHgs1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_5PHgtFH_EeyMo-Y4_C88Kg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5PHgtVH_EeyMo-Y4_C88Kg" defaultValue="6" name="puntajeObjetivo">
+      <modelElement href="EscobaDe15_2021.uml#_5LtANFH_EeyMo-Y4_C88Kg"/>
+      <stereotypes xmi:id="_5PHgtlH_EeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_5LtnQFH_EeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <visibility xmi:id="_5PHgt1H_EeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_5PHguFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_5PHguVH_EeyMo-Y4_C88Kg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5PHgulH_EeyMo-Y4_C88Kg" name="ganador">
+      <modelElement href="EscobaDe15_2021.uml#_5LtnQVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHgu1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHgvFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_5PHgvVH_EeyMo-Y4_C88Kg" name="Jugador">
+        <modelElement href="EscobaDe15_2021.uml#_1ust0FH_EeyMo-Y4_C88Kg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5PHgvlH_EeyMo-Y4_C88Kg" name="ganadorRonda">
+      <modelElement href="EscobaDe15_2021.uml#_5LtnQlH_EeyMo-Y4_C88Kg"/>
+      <stereotypes xmi:id="_5PHgv1H_EeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_5LtnQ1H_EeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <visibility xmi:id="_5PHgwFH_EeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_5PHgwVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_5PHgwlH_EeyMo-Y4_C88Kg" name="Jugador">
+        <modelElement href="EscobaDe15_2021.uml#_1ust0FH_EeyMo-Y4_C88Kg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5PHgw1H_EeyMo-Y4_C88Kg" name="ultimoJugadorEnLevantar">
+      <modelElement href="EscobaDe15_2021.uml#_5LuOUFH_EeyMo-Y4_C88Kg"/>
+      <stereotypes xmi:id="_5PHgxFH_EeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_5LuOUVH_EeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <visibility xmi:id="_5PHgxVH_EeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_5PHgxlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_5PHgx1H_EeyMo-Y4_C88Kg" name="Jugador">
+        <modelElement href="EscobaDe15_2021.uml#_1ust0FH_EeyMo-Y4_C88Kg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_5PHgyFH_EeyMo-Y4_C88Kg" name="repartirCartas">
+      <modelElement href="EscobaDe15_2021.uml#_5KjJoFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHgyVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHgylH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5PHgy1H_EeyMo-Y4_C88Kg" name="tirarCarta">
+      <modelElement href="EscobaDe15_2021.uml#_5KjwsFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHgzFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHgzVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5PHgzlH_EeyMo-Y4_C88Kg" name="numero">
+        <modelElement href="EscobaDe15_2021.uml#_5KjwsVH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_5PHgz1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_5PHg0FH_EeyMo-Y4_C88Kg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5PHg0VH_EeyMo-Y4_C88Kg" name="seleccionarCartasMesa">
+      <modelElement href="EscobaDe15_2021.uml#_5KkXwFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHg0lH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHg01H_EeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_5PHg1FH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_5KkXwVH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_5PHg1VH_EeyMo-Y4_C88Kg" name="Carta">
+          <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5PHg1lH_EeyMo-Y4_C88Kg" name="cantidadCartasMesa">
+      <modelElement href="EscobaDe15_2021.uml#_5KkXw1H_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHg11H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHg2FH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5PHg2VH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_5Kk-0FH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_5PHg2lH_EeyMo-Y4_C88Kg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5PHg21H_EeyMo-Y4_C88Kg" name="nombreJugadorActual">
+      <modelElement href="EscobaDe15_2021.uml#_5Kk-0VH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHg3FH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHg3VH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5PHg3lH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_5Kk-0lH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_5PHg31H_EeyMo-Y4_C88Kg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5PHg4FH_EeyMo-Y4_C88Kg" name="turnoJugadorActual">
+      <modelElement href="EscobaDe15_2021.uml#_5Kk-01H_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHg4VH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHg4lH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5PHg41H_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_5Kll4FH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_5PHg5FH_EeyMo-Y4_C88Kg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5PHg5VH_EeyMo-Y4_C88Kg" name="actualizarGanadorJuego">
+      <modelElement href="EscobaDe15_2021.uml#_5Kll4VH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHg5lH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHg51H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5PHg6FH_EeyMo-Y4_C88Kg" name="recuperarJugadorActual">
+      <modelElement href="EscobaDe15_2021.uml#_5Kll4lH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHg6VH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHg6lH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5PHg61H_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_5Lb6cVH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_5PHg7FH_EeyMo-Y4_C88Kg" name="Jugador">
+          <modelElement href="EscobaDe15_2021.uml#_1ust0FH_EeyMo-Y4_C88Kg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5PHg7VH_EeyMo-Y4_C88Kg" name="cantidadCartasJugadorActual">
+      <modelElement href="EscobaDe15_2021.uml#_5KmM8FH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHg7lH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHg71H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5PHg8FH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_5KmM8VH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_5PHg8VH_EeyMo-Y4_C88Kg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5PHg8lH_EeyMo-Y4_C88Kg" name="juntarCartasSobrantes">
+      <modelElement href="EscobaDe15_2021.uml#_5KmM8lH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHg81H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHg9FH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5PHg9VH_EeyMo-Y4_C88Kg" name="cartasBazaJugador">
+      <modelElement href="EscobaDe15_2021.uml#_5Km0AFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHg9lH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHg91H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5PHg-FH_EeyMo-Y4_C88Kg" name="getNombreGanadorRonda">
+      <modelElement href="EscobaDe15_2021.uml#_5Km0AVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHg-VH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHg-lH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5PHg-1H_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_5Km0AlH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_5PHg_FH_EeyMo-Y4_C88Kg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5PHg_VH_EeyMo-Y4_C88Kg" name="actualizarGanadorRonda">
+      <modelElement href="EscobaDe15_2021.uml#_5Km0A1H_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHg_lH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHg_1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5PHhAFH_EeyMo-Y4_C88Kg" name="huboEscobaDeMano">
+      <modelElement href="EscobaDe15_2021.uml#_5KnbEFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhAVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHhAlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5PHhA1H_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_5KnbEVH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_5PHhBFH_EeyMo-Y4_C88Kg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5PHhBVH_EeyMo-Y4_C88Kg" name="darCartasALaMesa">
+      <modelElement href="EscobaDe15_2021.uml#_5KnbElH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhBlH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHhB1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5PHhCFH_EeyMo-Y4_C88Kg" name="iniciarJuego">
+      <modelElement href="EscobaDe15_2021.uml#_5KnbE1H_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhCVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHhClH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5PHhC1H_EeyMo-Y4_C88Kg" name="reparteGeneral">
+      <modelElement href="EscobaDe15_2021.uml#_5KoCIFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhDFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHhDVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5PHhDlH_EeyMo-Y4_C88Kg" name="mensajesGenerales">
+      <modelElement href="EscobaDe15_2021.uml#_5KoCIVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhD1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHhEFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5PHhEVH_EeyMo-Y4_C88Kg" name="notificarCartasJugador">
+      <modelElement href="EscobaDe15_2021.uml#_5KoCIlH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhElH_EeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_5PHhE1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5PHhFFH_EeyMo-Y4_C88Kg" name="notificarTurno">
+      <modelElement href="EscobaDe15_2021.uml#_5KopMFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhFVH_EeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_5PHhFlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5PHhF1H_EeyMo-Y4_C88Kg" name="nombre">
+        <modelElement href="EscobaDe15_2021.uml#_5KopMVH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_5PHhGFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_5PHhGVH_EeyMo-Y4_C88Kg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5PHhGlH_EeyMo-Y4_C88Kg" name="agregarJugador">
+      <modelElement href="EscobaDe15_2021.uml#_5KopMlH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhG1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHhHFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5PHhHVH_EeyMo-Y4_C88Kg" name="nombre">
+        <modelElement href="EscobaDe15_2021.uml#_5KpQQFH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_5PHhHlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_5PHhH1H_EeyMo-Y4_C88Kg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5PHhIFH_EeyMo-Y4_C88Kg" name="notificarMensaje">
+      <modelElement href="EscobaDe15_2021.uml#_5KpQQVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhIVH_EeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_5PHhIlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5PHhI1H_EeyMo-Y4_C88Kg" name="mensaje">
+        <modelElement href="EscobaDe15_2021.uml#_5KpQQlH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_5PHhJFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_5PHhJVH_EeyMo-Y4_C88Kg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5PHhJlH_EeyMo-Y4_C88Kg" name="cambiarAJuegoFinalizado">
+      <modelElement href="EscobaDe15_2021.uml#_5Kp3UFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhJ1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHhKFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5PHhKVH_EeyMo-Y4_C88Kg" name="actualizarPuntosJugadores">
+      <modelElement href="EscobaDe15_2021.uml#_5Kp3UVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhKlH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHhK1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5PHhLFH_EeyMo-Y4_C88Kg" name="mostrarCartasMesa">
+      <modelElement href="EscobaDe15_2021.uml#_5Kp3UlH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhLVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHhLlH_EeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_5PHhL1H_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_5Kp3U1H_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_5PHhMFH_EeyMo-Y4_C88Kg" name="Carta">
+          <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5PHhMVH_EeyMo-Y4_C88Kg" name="cambiarJugador">
+      <modelElement href="EscobaDe15_2021.uml#_5KqeYFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhMlH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHhM1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5PHhNFH_EeyMo-Y4_C88Kg" name="cartasJugadorActual">
+      <modelElement href="EscobaDe15_2021.uml#_5KqeYVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhNVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHhNlH_EeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_5PHhN1H_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_5KqeYlH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_5PHhOFH_EeyMo-Y4_C88Kg" name="Carta">
+          <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_5PHhOVH_EeyMo-Y4_C88Kg" name="limpiarJuego">
+      <modelElement href="EscobaDe15_2021.uml#_5KrFcFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhOlH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHhO1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5PHhPFH_EeyMo-Y4_C88Kg" name="Juego">
+      <modelElement href="EscobaDe15_2021.uml#_5LY3IFH_EeyMo-Y4_C88Kg"/>
+      <keywords xmi:id="_5PHhPVH_EeyMo-Y4_C88Kg" keyword="create"/>
+      <visibility xmi:id="_5PHhPlH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHhP1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5PHhQFH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_5LZeMFH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_5PHhQVH_EeyMo-Y4_C88Kg" name="Juego">
+          <modelElement href="EscobaDe15_2021.uml#_5KgGUFH_EeyMo-Y4_C88Kg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5PHhQlH_EeyMo-Y4_C88Kg" name="mazo">
+        <modelElement href="EscobaDe15_2021.uml#_5LY3IVH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_5PHhQ1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_5PHhRFH_EeyMo-Y4_C88Kg" name="Mazo">
+          <modelElement href="EscobaDe15_2021.uml#_m_PX0EmQEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5PHhRVH_EeyMo-Y4_C88Kg" name="mesa">
+        <modelElement href="EscobaDe15_2021.uml#_5LY3IlH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_5PHhRlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_5PHhR1H_EeyMo-Y4_C88Kg" name="Mesa">
+          <modelElement href="EscobaDe15_2021.uml#_m_M7kEmQEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5PHhSFH_EeyMo-Y4_C88Kg" name="setObservadores">
+      <modelElement href="EscobaDe15_2021.uml#_5LZeMVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhSVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHhSlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5PHhS1H_EeyMo-Y4_C88Kg" name="observadores">
+        <modelElement href="EscobaDe15_2021.uml#_5LZeMlH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_5PHhTFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_5PHhTVH_EeyMo-Y4_C88Kg" name="List">
+          <modelElement href="EscobaDe15_2021.uml#_lJYDYEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5PHhTlH_EeyMo-Y4_C88Kg" name="levantarCartas">
+      <modelElement href="EscobaDe15_2021.uml#_5LasUFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhT1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHhUFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5PHhUVH_EeyMo-Y4_C88Kg" name="numero">
+        <modelElement href="EscobaDe15_2021.uml#_5LasUVH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_5PHhUlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_5PHhU1H_EeyMo-Y4_C88Kg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5PHhVFH_EeyMo-Y4_C88Kg" name="cartas">
+        <modelElement href="EscobaDe15_2021.uml#_5LasUlH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_5PHhVVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_5PHhVlH_EeyMo-Y4_C88Kg" name="ArrayList">
+          <modelElement href="EscobaDe15_2021.uml#_lJQHkEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5PHhV1H_EeyMo-Y4_C88Kg" name="notificarCartasDeLaMesa">
+      <modelElement href="EscobaDe15_2021.uml#_5LchgFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhWFH_EeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_5PHhWVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5PHhWlH_EeyMo-Y4_C88Kg" name="cartas">
+        <modelElement href="EscobaDe15_2021.uml#_5LchgVH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_5PHhW1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_5PHhXFH_EeyMo-Y4_C88Kg" name="List">
+          <modelElement href="EscobaDe15_2021.uml#_lJYDYEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5PHhXVH_EeyMo-Y4_C88Kg" name="notificarGanador">
+      <modelElement href="EscobaDe15_2021.uml#_5LdIkVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhXlH_EeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_5PHhX1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5PHhYFH_EeyMo-Y4_C88Kg" name="jugador">
+        <modelElement href="EscobaDe15_2021.uml#_5LdIklH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_5PHhYVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_5PHhYlH_EeyMo-Y4_C88Kg" name="Jugador">
+          <modelElement href="EscobaDe15_2021.uml#_1ust0FH_EeyMo-Y4_C88Kg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5PHhY1H_EeyMo-Y4_C88Kg" name="addObservador">
+      <modelElement href="EscobaDe15_2021.uml#_5LmSgFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhZFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHhZVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5PHhZlH_EeyMo-Y4_C88Kg" name="observador">
+        <modelElement href="EscobaDe15_2021.uml#_5LmSgVH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_5PHhZ1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_5PHhaFH_EeyMo-Y4_C88Kg" name="Observador">
+          <modelElement href="EscobaDe15_2021.uml#_5LkdUFH_EeyMo-Y4_C88Kg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_5PHhaVH_EeyMo-Y4_C88Kg" name="notificarEvento">
+      <modelElement href="EscobaDe15_2021.uml#_5LngoVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_5PHhalH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_5PHha1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5PHhbFH_EeyMo-Y4_C88Kg" name="evento">
+        <modelElement href="EscobaDe15_2021.uml#_5LngolH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_5PHhbVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_5PHhblH_EeyMo-Y4_C88Kg" name="EventosEscoba">
+          <modelElement href="EscobaDe15_2021.uml#_5Lm5kFH_EeyMo-Y4_C88Kg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8QqmBFH_EeyMo-Y4_C88Kg" name="Mesa" associationsOut="_8QoJwFH_EeyMo-Y4_C88Kg _5PGScFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_m_M7kEmQEeyyKtPopmqFNw"/>
+    <visualProperties xmi:id="_8QqmBVH_EeyMo-Y4_C88Kg" position="1049.0,80.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_8QqmBlH_EeyMo-Y4_C88Kg" label="+"/>
+    <attributes xmi:id="_8QqmB1H_EeyMo-Y4_C88Kg" defaultValue="new ArrayList&lt;>()" name="cartas">
+      <modelElement href="EscobaDe15_2021.uml#_m_xjUEmQEeyyKtPopmqFNw"/>
+      <visibility xmi:id="_8QqmCFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_8QqmCVH_EeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_8QqmClH_EeyMo-Y4_C88Kg" name="Carta">
+        <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_8QqmC1H_EeyMo-Y4_C88Kg" name="Mesa">
+      <modelElement href="EscobaDe15_2021.uml#_m_NioEmQEeyyKtPopmqFNw"/>
+      <keywords xmi:id="_8QqmDFH_EeyMo-Y4_C88Kg" keyword="create"/>
+      <stereotypes xmi:id="_8QqmDVH_EeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_m_Nio0mQEeyyKtPopmqFNw"/>
+      </stereotypes>
+      <visibility xmi:id="_8QqmDlH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_8QqmD1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8QqmEFH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_m_NipEmQEeyyKtPopmqFNw"/>
+        <type xmi:id="_8QqmEVH_EeyMo-Y4_C88Kg" name="Mesa">
+          <modelElement href="EscobaDe15_2021.uml#_m_M7kEmQEeyyKtPopmqFNw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_8QqmElH_EeyMo-Y4_C88Kg" name="agregarCarta">
+      <modelElement href="EscobaDe15_2021.uml#_m_ugAEmQEeyyKtPopmqFNw"/>
+      <visibility xmi:id="_8QqmE1H_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_8QqmFFH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8QqmFVH_EeyMo-Y4_C88Kg" name="carta">
+        <modelElement href="EscobaDe15_2021.uml#_m_ugAUmQEeyyKtPopmqFNw"/>
+        <cardinality xmi:id="_8QqmFlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_8QqmF1H_EeyMo-Y4_C88Kg" name="Carta">
+          <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8QqmGFH_EeyMo-Y4_C88Kg" name="mostrarCartas">
+      <modelElement href="EscobaDe15_2021.uml#_x13bEFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_8QqmGVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_8QqmGlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8QqmG1H_EeyMo-Y4_C88Kg" name="juntarCartas">
+      <modelElement href="EscobaDe15_2021.uml#_x13bEVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_8QqmHFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_8QqmHVH_EeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_8QqmHlH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_x13bE1H_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_8QqmH1H_EeyMo-Y4_C88Kg" name="Carta">
+          <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8QqmIFH_EeyMo-Y4_C88Kg" name="cartas">
+        <modelElement href="EscobaDe15_2021.uml#_x13bElH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_8QqmIVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_8QqmIlH_EeyMo-Y4_C88Kg" name="ArrayList">
+          <modelElement href="EscobaDe15_2021.uml#_lJQHkEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8QqmI1H_EeyMo-Y4_C88Kg" name="sacarCartas">
+      <modelElement href="EscobaDe15_2021.uml#_x14pMFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_8QqmJFH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_8QqmJVH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_8QqmJlH_EeyMo-Y4_C88Kg" name="cartas">
+        <modelElement href="EscobaDe15_2021.uml#_x14pMVH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_8QqmJ1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_8QqmKFH_EeyMo-Y4_C88Kg" name="List">
+          <modelElement href="EscobaDe15_2021.uml#_lJYDYEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8QqmKVH_EeyMo-Y4_C88Kg" name="limpiarMesa">
+      <modelElement href="EscobaDe15_2021.uml#_x15QQVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_8QqmKlH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_8QqmK1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8QqmLFH_EeyMo-Y4_C88Kg" name="cantidadDeCartas">
+      <modelElement href="EscobaDe15_2021.uml#_x15QQlH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_8QqmLVH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_8QqmLlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8QqmL1H_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_x17sgFH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_8QqmMFH_EeyMo-Y4_C88Kg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-KFlwFH_EeyMo-Y4_C88Kg" name="Reglas" associationsIn="_Azoa4FIAEeyMo-Y4_C88Kg" associationsOut="_5PFraFH_EeyMo-Y4_C88Kg _-KCicFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_5LjPMFH_EeyMo-Y4_C88Kg"/>
+    <visualProperties xmi:id="_-KFlwVH_EeyMo-Y4_C88Kg" position="1036.0,283.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_-KFlwlH_EeyMo-Y4_C88Kg" label="+"/>
+    <attributes xmi:id="_-KFlw1H_EeyMo-Y4_C88Kg" name="ronda">
+      <modelElement href="EscobaDe15_2021.uml#_-G2rkFH_EeyMo-Y4_C88Kg"/>
+      <stereotypes xmi:id="_-KFlxFH_EeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_-G2rkVH_EeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <visibility xmi:id="_-KFlxVH_EeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_-KFlxlH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_-KFlx1H_EeyMo-Y4_C88Kg" name="Ronda">
+        <modelElement href="EscobaDe15_2021.uml#_5LiBEFH_EeyMo-Y4_C88Kg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_-KFlyFH_EeyMo-Y4_C88Kg" name="Reglas">
+      <modelElement href="EscobaDe15_2021.uml#_-GxMAFH_EeyMo-Y4_C88Kg"/>
+      <keywords xmi:id="_-KFlyVH_EeyMo-Y4_C88Kg" keyword="create"/>
+      <visibility xmi:id="_-KFlylH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_-KFly1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-KFlzFH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_-GxMBFH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_-KFlzVH_EeyMo-Y4_C88Kg" name="Reglas">
+          <modelElement href="EscobaDe15_2021.uml#_5LjPMFH_EeyMo-Y4_C88Kg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-KFlzlH_EeyMo-Y4_C88Kg" name="ronda">
+        <modelElement href="EscobaDe15_2021.uml#_-GxMAVH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_-KFlz1H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_-KFl0FH_EeyMo-Y4_C88Kg" name="Ronda">
+          <modelElement href="EscobaDe15_2021.uml#_5LiBEFH_EeyMo-Y4_C88Kg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-KFl0VH_EeyMo-Y4_C88Kg" name="verificarSuma15">
+      <modelElement href="EscobaDe15_2021.uml#_-GxMBVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_-KFl0lH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_-KFl01H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-KFl1FH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_-GxzEFH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_-KFl1VH_EeyMo-Y4_C88Kg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-KFl1lH_EeyMo-Y4_C88Kg" name="cartas">
+        <modelElement href="EscobaDe15_2021.uml#_-GxMBlH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_-KFl11H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_-KFl2FH_EeyMo-Y4_C88Kg" name="List">
+          <modelElement href="EscobaDe15_2021.uml#_lJYDYEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-KFl2VH_EeyMo-Y4_C88Kg" name="validacion7DeOro">
+      <modelElement href="EscobaDe15_2021.uml#_-GyaIVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_-KFl2lH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_-KFl21H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-KFl3FH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_-GyaI1H_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_-KFl3VH_EeyMo-Y4_C88Kg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-KFl3lH_EeyMo-Y4_C88Kg" name="carta">
+        <modelElement href="EscobaDe15_2021.uml#_-GyaIlH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_-KFl31H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_-KFl4FH_EeyMo-Y4_C88Kg" name="Carta">
+          <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-KFl4VH_EeyMo-Y4_C88Kg" name="esFinDeMano">
+      <modelElement href="EscobaDe15_2021.uml#_-GzBMFH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_-KFl4lH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_-KFl41H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-KFl5FH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_-GzBMlH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_-KFl5VH_EeyMo-Y4_C88Kg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-KFl5lH_EeyMo-Y4_C88Kg" name="jugadores">
+        <modelElement href="EscobaDe15_2021.uml#_-GzBMVH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_-KFl51H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_-KFl6FH_EeyMo-Y4_C88Kg" name="List">
+          <modelElement href="EscobaDe15_2021.uml#_lJYDYEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-KFl6VH_EeyMo-Y4_C88Kg" name="levanto7DeOro">
+      <modelElement href="EscobaDe15_2021.uml#_-G0PUVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_-KFl6lH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_-KFl61H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-KFl7FH_EeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_-G02YFH_EeyMo-Y4_C88Kg"/>
+        <type xmi:id="_-KFl7VH_EeyMo-Y4_C88Kg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-KFl7lH_EeyMo-Y4_C88Kg" name="cartasLevantadas">
+        <modelElement href="EscobaDe15_2021.uml#_-G0PUlH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_-KFl71H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_-KFl8FH_EeyMo-Y4_C88Kg" name="List">
+          <modelElement href="EscobaDe15_2021.uml#_lJYDYEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-KFl8VH_EeyMo-Y4_C88Kg" name="sumarPuntoPorSetenta">
+      <modelElement href="EscobaDe15_2021.uml#_-G1dcVH_EeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_-KFl8lH_EeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_-KFl81H_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-KFl9FH_EeyMo-Y4_C88Kg" name="jugadores">
+        <modelElement href="EscobaDe15_2021.uml#_-G1dclH_EeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_-KFl9VH_EeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_-KFl9lH_EeyMo-Y4_C88Kg" name="List">
+          <modelElement href="EscobaDe15_2021.uml#_lJYDYEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AztTYFIAEeyMo-Y4_C88Kg" name="Ronda" associationsIn="_Aznz0FIAEeyMo-Y4_C88Kg _-KCicFH_EeyMo-Y4_C88Kg" associationsOut="_Azoa4FIAEeyMo-Y4_C88Kg _5PFrYFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_5LiBEFH_EeyMo-Y4_C88Kg"/>
+    <visualProperties xmi:id="_AztTYVIAEeyMo-Y4_C88Kg" position="1050.0,465.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AztTYlIAEeyMo-Y4_C88Kg" label="+"/>
+    <attributes xmi:id="_AztTY1IAEeyMo-Y4_C88Kg" name="ultimoJugadorEnLevantar">
+      <modelElement href="EscobaDe15_2021.uml#_AwTaEFIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_AztTZFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_AztTZVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_AztTZlIAEeyMo-Y4_C88Kg" name="Jugador">
+        <modelElement href="EscobaDe15_2021.uml#_1ust0FH_EeyMo-Y4_C88Kg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AztTZ1IAEeyMo-Y4_C88Kg" defaultValue="new Reglas(this)" name="reglas">
+      <modelElement href="EscobaDe15_2021.uml#_AwTaEVIAEeyMo-Y4_C88Kg"/>
+      <stereotypes xmi:id="_AztTaFIAEeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_AwTaE1IAEeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <visibility xmi:id="_AztTaVIAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_AztTalIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_AztTa1IAEeyMo-Y4_C88Kg" name="Reglas">
+        <modelElement href="EscobaDe15_2021.uml#_5LjPMFH_EeyMo-Y4_C88Kg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_AztTbFIAEeyMo-Y4_C88Kg" name="Ronda">
+      <modelElement href="EscobaDe15_2021.uml#_Av-p8FIAEeyMo-Y4_C88Kg"/>
+      <keywords xmi:id="_AztTbVIAEeyMo-Y4_C88Kg" keyword="create"/>
+      <stereotypes xmi:id="_AztTblIAEeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_Av_RAFIAEeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <visibility xmi:id="_AztTb1IAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_AztTcFIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AztTcVIAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_Av_RAVIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_AztTclIAEeyMo-Y4_C88Kg" name="Ronda">
+          <modelElement href="EscobaDe15_2021.uml#_5LiBEFH_EeyMo-Y4_C88Kg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_AztTc1IAEeyMo-Y4_C88Kg" name="actualizarPuntos">
+      <modelElement href="EscobaDe15_2021.uml#_AwNTcFIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_AztTdFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_AztTdVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AztTdlIAEeyMo-Y4_C88Kg" name="jugadores">
+        <modelElement href="EscobaDe15_2021.uml#_AwNTcVIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_AztTd1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_AztTeFIAEeyMo-Y4_C88Kg" name="List">
+          <modelElement href="EscobaDe15_2021.uml#_lJYDYEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AztTeVIAEeyMo-Y4_C88Kg" name="comprobarFinDeRonda">
+      <modelElement href="EscobaDe15_2021.uml#_AwN6gVIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_AztTelIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_AztTe1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AztTfFIAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_AwOhkFIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_AztTfVIAEeyMo-Y4_C88Kg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AztTflIAEeyMo-Y4_C88Kg" name="mazo">
+        <modelElement href="EscobaDe15_2021.uml#_AwN6glIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_AztTf1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_AztTgFIAEeyMo-Y4_C88Kg" name="Mazo">
+          <modelElement href="EscobaDe15_2021.uml#_m_PX0EmQEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AztTgVIAEeyMo-Y4_C88Kg" name="jugadores">
+        <modelElement href="EscobaDe15_2021.uml#_AwN6g1IAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_AztTglIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_AztTg1IAEeyMo-Y4_C88Kg" name="List">
+          <modelElement href="EscobaDe15_2021.uml#_lJYDYEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AztThFIAEeyMo-Y4_C88Kg" name="sumaPuntoPorOro">
+      <modelElement href="EscobaDe15_2021.uml#_AwPIoVIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_AztThVIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_AztThlIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Azt6cFIAEeyMo-Y4_C88Kg" name="jugadores">
+        <modelElement href="EscobaDe15_2021.uml#_AwPIolIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_Azt6cVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_Azt6clIAEeyMo-Y4_C88Kg" name="List">
+          <modelElement href="EscobaDe15_2021.uml#_lJYDYEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Azt6c1IAEeyMo-Y4_C88Kg" name="sumaPuntoPorCarta">
+      <modelElement href="EscobaDe15_2021.uml#_AwPvsVIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_Azt6dFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_Azt6dVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Azt6dlIAEeyMo-Y4_C88Kg" name="jugadores">
+        <modelElement href="EscobaDe15_2021.uml#_AwPvslIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_Azt6d1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_Azt6eFIAEeyMo-Y4_C88Kg" name="List">
+          <modelElement href="EscobaDe15_2021.uml#_lJYDYEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Azt6eVIAEeyMo-Y4_C88Kg" name="validacion7DeOro">
+      <modelElement href="EscobaDe15_2021.uml#_AwQ90FIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_Azt6elIAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_Azt6e1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Azt6fFIAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_AwQ90lIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_Azt6fVIAEeyMo-Y4_C88Kg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Azt6flIAEeyMo-Y4_C88Kg" name="carta">
+        <modelElement href="EscobaDe15_2021.uml#_AwQ90VIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_Azt6f1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_Azt6gFIAEeyMo-Y4_C88Kg" name="Carta">
+          <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Azt6gVIAEeyMo-Y4_C88Kg" name="validacion7">
+      <modelElement href="EscobaDe15_2021.uml#_AwQ901IAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_Azt6glIAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_Azt6g1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Azt6hFIAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_AwQ91VIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_Azt6hVIAEeyMo-Y4_C88Kg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Azt6hlIAEeyMo-Y4_C88Kg" name="carta">
+        <modelElement href="EscobaDe15_2021.uml#_AwQ91FIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_Azt6h1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_Azt6iFIAEeyMo-Y4_C88Kg" name="Carta">
+          <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Azt6iVIAEeyMo-Y4_C88Kg" name="sumarPuntoPorSetenta">
+      <modelElement href="EscobaDe15_2021.uml#_AwRk4FIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_Azt6ilIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_Azt6i1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Azt6jFIAEeyMo-Y4_C88Kg" name="jugadores">
+        <modelElement href="EscobaDe15_2021.uml#_AwRk4VIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_Azt6jVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_Azt6jlIAEeyMo-Y4_C88Kg" name="List">
+          <modelElement href="EscobaDe15_2021.uml#_lJYDYEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Azt6j1IAEeyMo-Y4_C88Kg" name="sumarPuntoJugador">
+      <modelElement href="EscobaDe15_2021.uml#_AwSL8VIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_Azt6kFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_Azt6kVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Azt6klIAEeyMo-Y4_C88Kg" name="jugador">
+        <modelElement href="EscobaDe15_2021.uml#_AwSL8lIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_Azt6k1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_Azt6lFIAEeyMo-Y4_C88Kg" name="Jugador">
+          <modelElement href="EscobaDe15_2021.uml#_1ust0FH_EeyMo-Y4_C88Kg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_C1Ul0FIAEeyMo-Y4_C88Kg" name="Palo" associationsOut="_0Ko6EFH_EeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_m_LGYEmQEeyyKtPopmqFNw"/>
+    <visualProperties xmi:id="_C1Ul0VIAEeyMo-Y4_C88Kg" position="23.0,-147.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_C1Ul0lIAEeyMo-Y4_C88Kg" name="LegacyStyledElement">
+      <modelElement href="EscobaDe15_2021.uml#_m_LtcEmQEeyyKtPopmqFNw"/>
+    </stereotypes>
+    <visibility xmi:id="_C1Ul01IAEeyMo-Y4_C88Kg" label="+"/>
+    <literals xmi:id="_C1Ul1FIAEeyMo-Y4_C88Kg" name="ESPADA">
+      <modelElement href="EscobaDe15_2021.uml#_m_LtcUmQEeyyKtPopmqFNw"/>
+    </literals>
+    <literals xmi:id="_C1Ul1VIAEeyMo-Y4_C88Kg" name="BASTO">
+      <modelElement href="EscobaDe15_2021.uml#_m_MUgEmQEeyyKtPopmqFNw"/>
+    </literals>
+    <literals xmi:id="_C1Ul1lIAEeyMo-Y4_C88Kg" name="ORO">
+      <modelElement href="EscobaDe15_2021.uml#_m_MUgUmQEeyyKtPopmqFNw"/>
+    </literals>
+    <literals xmi:id="_C1Ul11IAEeyMo-Y4_C88Kg" name="COPA">
+      <modelElement href="EscobaDe15_2021.uml#_m_MUgkmQEeyyKtPopmqFNw"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_FwJ_QFIAEeyMo-Y4_C88Kg" name="Controlador" associationsIn="_KEYNgFIAEeyMo-Y4_C88Kg" associationsOut="_Fv_AIFIAEeyMo-Y4_C88Kg _FwJYMFIAEeyMo-Y4_C88Kg" generalizations="_FwA1UFIAEeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_Fqwh4FIAEeyMo-Y4_C88Kg"/>
+    <visualProperties xmi:id="_FwJ_QVIAEeyMo-Y4_C88Kg" position="1430.0,-113.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_FwJ_QlIAEeyMo-Y4_C88Kg" label="+"/>
+    <attributes xmi:id="_FwJ_Q1IAEeyMo-Y4_C88Kg" name="juego">
+      <modelElement href="EscobaDe15_2021.uml#_FrndgFIAEeyMo-Y4_C88Kg"/>
+      <stereotypes xmi:id="_FwJ_RFIAEeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_FroEkFIAEeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <visibility xmi:id="_FwJ_RVIAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_FwJ_RlIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_FwJ_R1IAEeyMo-Y4_C88Kg" name="Juego">
+        <modelElement href="EscobaDe15_2021.uml#_5KgGUFH_EeyMo-Y4_C88Kg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_FwJ_SFIAEeyMo-Y4_C88Kg" name="vista">
+      <modelElement href="EscobaDe15_2021.uml#_FroroFIAEeyMo-Y4_C88Kg"/>
+      <stereotypes xmi:id="_FwJ_SVIAEeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_FroroVIAEeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <visibility xmi:id="_FwJ_SlIAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_FwJ_S1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_FwJ_TFIAEeyMo-Y4_C88Kg" name="VistaConsola">
+        <modelElement href="EscobaDe15_2021.uml#_FrQ4MFIAEeyMo-Y4_C88Kg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_FwJ_TVIAEeyMo-Y4_C88Kg" name="notificarMensaje">
+      <modelElement href="EscobaDe15_2021.uml#_FqyXEFIAEeyMo-Y4_C88Kg"/>
+      <stereotypes xmi:id="_FwJ_TlIAEeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_Fqy-IFIAEeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FwJ_T1IAEeyMo-Y4_C88Kg" name="Annotations">
+        <modelElement href="EscobaDe15_2021.uml#_FqzlMFIAEeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <visibility xmi:id="_FwJ_UFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_UVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_FwJ_UlIAEeyMo-Y4_C88Kg" name="mensaje">
+        <modelElement href="EscobaDe15_2021.uml#_FqyXEVIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_FwJ_U1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwJ_VFIAEeyMo-Y4_C88Kg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FwJ_VVIAEeyMo-Y4_C88Kg" name="crearJugador">
+      <modelElement href="EscobaDe15_2021.uml#_Fq0MQVIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_FwJ_VlIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_V1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_FwJ_WFIAEeyMo-Y4_C88Kg" name="nombre">
+        <modelElement href="EscobaDe15_2021.uml#_Fq0MQlIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_FwJ_WVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwJ_WlIAEeyMo-Y4_C88Kg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FwJ_W1IAEeyMo-Y4_C88Kg" name="iniciarJuego">
+      <modelElement href="EscobaDe15_2021.uml#_Fq0zUFIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_FwJ_XFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_XVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_FwJ_XlIAEeyMo-Y4_C88Kg" name="conocerEstado">
+      <modelElement href="EscobaDe15_2021.uml#_Fq0zUVIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_FwJ_X1IAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_YFIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FwJ_YVIAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_Fre6oFIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_FwJ_YlIAEeyMo-Y4_C88Kg" name="Estado">
+          <modelElement href="EscobaDe15_2021.uml#_5LlEYFH_EeyMo-Y4_C88Kg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_FwJ_Y1IAEeyMo-Y4_C88Kg" name="mostrarCartasMesa">
+      <modelElement href="EscobaDe15_2021.uml#_Fq0zUlIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_FwJ_ZFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_ZVIAEeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_FwJ_ZlIAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_Fq1aYFIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_FwJ_Z1IAEeyMo-Y4_C88Kg" name="Carta">
+          <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_FwJ_aFIAEeyMo-Y4_C88Kg" name="cambiaTurno">
+      <modelElement href="EscobaDe15_2021.uml#_Fq1aYlIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_FwJ_aVIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_alIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_FwJ_a1IAEeyMo-Y4_C88Kg" name="getJugadorTurno">
+      <modelElement href="EscobaDe15_2021.uml#_Fq1aY1IAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_FwJ_bFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_bVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FwJ_blIAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_Fq2BcFIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_FwJ_b1IAEeyMo-Y4_C88Kg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_FwJ_cFIAEeyMo-Y4_C88Kg" name="tirarCarta">
+      <modelElement href="EscobaDe15_2021.uml#_Fq2BcVIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_FwJ_cVIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_clIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_FwJ_c1IAEeyMo-Y4_C88Kg" name="numero">
+        <modelElement href="EscobaDe15_2021.uml#_Fq2BclIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_FwJ_dFIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwJ_dVIAEeyMo-Y4_C88Kg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FwJ_dlIAEeyMo-Y4_C88Kg" name="cartasJugadorActual">
+      <modelElement href="EscobaDe15_2021.uml#_Fq2ogFIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_FwJ_d1IAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_eFIAEeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_FwJ_eVIAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_Fq2ogVIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_FwJ_elIAEeyMo-Y4_C88Kg" name="Carta">
+          <modelElement href="EscobaDe15_2021.uml#_m_TCMEmQEeyyKtPopmqFNw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_FwJ_e1IAEeyMo-Y4_C88Kg" name="cantidadCartasJugadorActual">
+      <modelElement href="EscobaDe15_2021.uml#_Fq3PkFIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_FwJ_fFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_fVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FwJ_flIAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_Fq3PkVIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_FwJ_f1IAEeyMo-Y4_C88Kg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_FwJ_gFIAEeyMo-Y4_C88Kg" name="cantidadCartasMesa">
+      <modelElement href="EscobaDe15_2021.uml#_Fq32oFIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_FwJ_gVIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_glIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FwJ_g1IAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_Fq32oVIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_FwJ_hFIAEeyMo-Y4_C88Kg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_FwJ_hVIAEeyMo-Y4_C88Kg" name="nombreJugadorActual">
+      <modelElement href="EscobaDe15_2021.uml#_Fq32olIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_FwJ_hlIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_h1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FwJ_iFIAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_Fq4dsFIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_FwJ_iVIAEeyMo-Y4_C88Kg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_FwJ_ilIAEeyMo-Y4_C88Kg" name="getJugadores">
+      <modelElement href="EscobaDe15_2021.uml#_Fq4dsVIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_FwJ_i1IAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_jFIAEeyMo-Y4_C88Kg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_FwJ_jVIAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_Fq4dslIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_FwJ_jlIAEeyMo-Y4_C88Kg" name="Jugador">
+          <modelElement href="EscobaDe15_2021.uml#_1ust0FH_EeyMo-Y4_C88Kg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_FwJ_j1IAEeyMo-Y4_C88Kg" name="getGanador">
+      <modelElement href="EscobaDe15_2021.uml#_Fq5EwFIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_FwJ_kFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_kVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FwJ_klIAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_FrgIwFIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_FwJ_k1IAEeyMo-Y4_C88Kg" name="Jugador">
+          <modelElement href="EscobaDe15_2021.uml#_1ust0FH_EeyMo-Y4_C88Kg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_FwJ_lFIAEeyMo-Y4_C88Kg" name="limpiarJuego">
+      <modelElement href="EscobaDe15_2021.uml#_Fq5EwVIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_FwJ_lVIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_llIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_FwJ_l1IAEeyMo-Y4_C88Kg" name="cartasBazaJugador">
+      <modelElement href="EscobaDe15_2021.uml#_Fq5r0FIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_FwJ_mFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_mVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_FwJ_mlIAEeyMo-Y4_C88Kg" name="getNombreGanadorRonda">
+      <modelElement href="EscobaDe15_2021.uml#_Fq5r0VIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_FwJ_m1IAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_nFIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FwJ_nVIAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_Fq5r0lIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_FwJ_nlIAEeyMo-Y4_C88Kg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_FwJ_n1IAEeyMo-Y4_C88Kg" name="notificarTurno">
+      <modelElement href="EscobaDe15_2021.uml#_Fq6S4FIAEeyMo-Y4_C88Kg"/>
+      <stereotypes xmi:id="_FwJ_oFIAEeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_Fq6S4lIAEeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FwJ_oVIAEeyMo-Y4_C88Kg" name="Annotations">
+        <modelElement href="EscobaDe15_2021.uml#_Fq658FIAEeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <visibility xmi:id="_FwJ_olIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_o1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_FwJ_pFIAEeyMo-Y4_C88Kg" name="nombre">
+        <modelElement href="EscobaDe15_2021.uml#_Fq6S4VIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_FwJ_pVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwJ_plIAEeyMo-Y4_C88Kg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FwJ_p1IAEeyMo-Y4_C88Kg" name="notificarEvento">
+      <modelElement href="EscobaDe15_2021.uml#_FrdsgFIAEeyMo-Y4_C88Kg"/>
+      <stereotypes xmi:id="_FwJ_qFIAEeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_FreTkFIAEeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FwJ_qVIAEeyMo-Y4_C88Kg" name="Annotations">
+        <modelElement href="EscobaDe15_2021.uml#_FreTkVIAEeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <visibility xmi:id="_FwJ_qlIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_q1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_FwJ_rFIAEeyMo-Y4_C88Kg" name="evento">
+        <modelElement href="EscobaDe15_2021.uml#_FrdsgVIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_FwJ_rVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwJ_rlIAEeyMo-Y4_C88Kg" name="EventosEscoba">
+          <modelElement href="EscobaDe15_2021.uml#_5Lm5kFH_EeyMo-Y4_C88Kg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FwJ_r1IAEeyMo-Y4_C88Kg" name="levantarCartas">
+      <modelElement href="EscobaDe15_2021.uml#_Fre6oVIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_FwJ_sFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_sVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_FwJ_slIAEeyMo-Y4_C88Kg" name="numero">
+        <modelElement href="EscobaDe15_2021.uml#_Fre6olIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_FwJ_s1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwJ_tFIAEeyMo-Y4_C88Kg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_FwJ_tVIAEeyMo-Y4_C88Kg" name="cartas">
+        <modelElement href="EscobaDe15_2021.uml#_Fre6o1IAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_FwJ_tlIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwJ_t1IAEeyMo-Y4_C88Kg" name="ArrayList">
+          <modelElement href="EscobaDe15_2021.uml#_lJQHkEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FwJ_uFIAEeyMo-Y4_C88Kg" name="notificarCartasDeLaMesa">
+      <modelElement href="EscobaDe15_2021.uml#_FrgIwVIAEeyMo-Y4_C88Kg"/>
+      <stereotypes xmi:id="_FwJ_uVIAEeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_Frgv0FIAEeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FwJ_ulIAEeyMo-Y4_C88Kg" name="Annotations">
+        <modelElement href="EscobaDe15_2021.uml#_FrhW4VIAEeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <visibility xmi:id="_FwJ_u1IAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_vFIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_FwJ_vVIAEeyMo-Y4_C88Kg" name="cartas">
+        <modelElement href="EscobaDe15_2021.uml#_FrgIwlIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_FwJ_vlIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwJ_v1IAEeyMo-Y4_C88Kg" name="List">
+          <modelElement href="EscobaDe15_2021.uml#_lJYDYEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FwJ_wFIAEeyMo-Y4_C88Kg" name="notificarCartasJugador">
+      <modelElement href="EscobaDe15_2021.uml#_FrhW41IAEeyMo-Y4_C88Kg"/>
+      <stereotypes xmi:id="_FwJ_wVIAEeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_Frh98FIAEeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FwJ_wlIAEeyMo-Y4_C88Kg" name="Annotations">
+        <modelElement href="EscobaDe15_2021.uml#_FrilAVIAEeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <visibility xmi:id="_FwJ_w1IAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_xFIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_FwJ_xVIAEeyMo-Y4_C88Kg" name="cartas">
+        <modelElement href="EscobaDe15_2021.uml#_FrhW5FIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_FwJ_xlIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwJ_x1IAEeyMo-Y4_C88Kg" name="List">
+          <modelElement href="EscobaDe15_2021.uml#_lJYDYEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FwJ_yFIAEeyMo-Y4_C88Kg" name="notificarGanador">
+      <modelElement href="EscobaDe15_2021.uml#_FrjMEVIAEeyMo-Y4_C88Kg"/>
+      <stereotypes xmi:id="_FwJ_yVIAEeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_FrjME1IAEeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FwJ_ylIAEeyMo-Y4_C88Kg" name="Annotations">
+        <modelElement href="EscobaDe15_2021.uml#_FrjzIFIAEeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <visibility xmi:id="_FwJ_y1IAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_zFIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_FwJ_zVIAEeyMo-Y4_C88Kg" name="jugador">
+        <modelElement href="EscobaDe15_2021.uml#_FrjMElIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_FwJ_zlIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwJ_z1IAEeyMo-Y4_C88Kg" name="Jugador">
+          <modelElement href="EscobaDe15_2021.uml#_1ust0FH_EeyMo-Y4_C88Kg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FwJ_0FIAEeyMo-Y4_C88Kg" name="Controlador">
+      <modelElement href="EscobaDe15_2021.uml#_FrloUFIAEeyMo-Y4_C88Kg"/>
+      <keywords xmi:id="_FwJ_0VIAEeyMo-Y4_C88Kg" keyword="create"/>
+      <visibility xmi:id="_FwJ_0lIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_FwJ_01IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FwJ_1FIAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_FrmPYlIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_FwJ_1VIAEeyMo-Y4_C88Kg" name="Controlador">
+          <modelElement href="EscobaDe15_2021.uml#_Fqwh4FIAEeyMo-Y4_C88Kg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FwJ_1lIAEeyMo-Y4_C88Kg" name="vista">
+        <modelElement href="EscobaDe15_2021.uml#_FrloUVIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_FwJ_11IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwJ_2FIAEeyMo-Y4_C88Kg" name="VistaConsola">
+          <modelElement href="EscobaDe15_2021.uml#_FrQ4MFIAEeyMo-Y4_C88Kg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_FwJ_2VIAEeyMo-Y4_C88Kg" name="Chinchon">
+        <modelElement href="EscobaDe15_2021.uml#_FrloUlIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_FwJ_2lIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwJ_21IAEeyMo-Y4_C88Kg" name="Juego">
+          <modelElement href="EscobaDe15_2021.uml#_5KgGUFH_EeyMo-Y4_C88Kg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_KEe7MFIAEeyMo-Y4_C88Kg" name="VistaConsola" associationsIn="_FwJYMFIAEeyMo-Y4_C88Kg" associationsOut="_KEYNgFIAEeyMo-Y4_C88Kg _KEeUIFIAEeyMo-Y4_C88Kg">
+    <modelElement href="EscobaDe15_2021.uml#_FrQ4MFIAEeyMo-Y4_C88Kg"/>
+    <visualProperties xmi:id="_KEe7MVIAEeyMo-Y4_C88Kg" position="1525.0,461.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_KEe7MlIAEeyMo-Y4_C88Kg" label="+"/>
+    <attributes xmi:id="_KEe7M1IAEeyMo-Y4_C88Kg" name="controlador">
+      <modelElement href="EscobaDe15_2021.uml#_J_OAsFIAEeyMo-Y4_C88Kg"/>
+      <stereotypes xmi:id="_KEe7NFIAEeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_J_OnwFIAEeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <visibility xmi:id="_KEe7NVIAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_KEe7NlIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_KEe7N1IAEeyMo-Y4_C88Kg" name="Controlador">
+        <modelElement href="EscobaDe15_2021.uml#_Fqwh4FIAEeyMo-Y4_C88Kg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_KEe7OFIAEeyMo-Y4_C88Kg" defaultValue="new Scanner(System.in)" name="teclado">
+      <modelElement href="EscobaDe15_2021.uml#_J_OnwVIAEeyMo-Y4_C88Kg"/>
+      <stereotypes xmi:id="_KEe7OVIAEeyMo-Y4_C88Kg" name="LegacyStyledElement">
+        <modelElement href="EscobaDe15_2021.uml#_J_PO0FIAEeyMo-Y4_C88Kg"/>
+      </stereotypes>
+      <visibility xmi:id="_KEe7OlIAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_KEe7O1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <type xmi:id="_KEe7PFIAEeyMo-Y4_C88Kg" name="Scanner">
+        <modelElement href="EscobaDe15_2021.uml#_J_H6EFIAEeyMo-Y4_C88Kg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_KEe7PVIAEeyMo-Y4_C88Kg" name="empezarJuego">
+      <modelElement href="EscobaDe15_2021.uml#_J-tDUFIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7PlIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_KEe7P1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_KEe7QFIAEeyMo-Y4_C88Kg" name="juegoIniciado">
+      <modelElement href="EscobaDe15_2021.uml#_J-tqYFIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7QVIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_KEe7QlIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_KEe7Q1IAEeyMo-Y4_C88Kg" name="agregarJugador">
+      <modelElement href="EscobaDe15_2021.uml#_J-uRcFIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7RFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_KEe7RVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_KEe7RlIAEeyMo-Y4_C88Kg" name="levantarCartas">
+      <modelElement href="EscobaDe15_2021.uml#_J-uRcVIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7R1IAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_KEe7SFIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_KEe7SVIAEeyMo-Y4_C88Kg" name="tirarCarta">
+      <modelElement href="EscobaDe15_2021.uml#_J-uRclIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7SlIAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_KEe7S1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_KEe7TFIAEeyMo-Y4_C88Kg" name="menuOpcionesLevantada">
+      <modelElement href="EscobaDe15_2021.uml#_J-uRc1IAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7TVIAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_KEe7TlIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_KEe7T1IAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_J-u4gFIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_KEe7UFIAEeyMo-Y4_C88Kg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_KEe7UVIAEeyMo-Y4_C88Kg" name="mostrarMenuJugador">
+      <modelElement href="EscobaDe15_2021.uml#_J-u4gVIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7UlIAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_KEe7U1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_KEe7VFIAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_J-u4glIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_KEe7VVIAEeyMo-Y4_C88Kg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_KEe7VlIAEeyMo-Y4_C88Kg" name="mostrarMenu">
+      <modelElement href="EscobaDe15_2021.uml#_J-u4g1IAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7V1IAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_KEe7WFIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_KEe7WVIAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_J-vfkFIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_KEe7WlIAEeyMo-Y4_C88Kg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_KEe7W1IAEeyMo-Y4_C88Kg" name="notificarEscobaDeMano">
+      <modelElement href="EscobaDe15_2021.uml#_J-vfkVIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7XFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_KEe7XVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_KEe7XlIAEeyMo-Y4_C88Kg" name="cantidadCartasMesa">
+      <modelElement href="EscobaDe15_2021.uml#_J-wGoFIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7X1IAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_KEe7YFIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_KEe7YVIAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_J-wGoVIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_KEe7YlIAEeyMo-Y4_C88Kg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_KEe7Y1IAEeyMo-Y4_C88Kg" name="mostrarCartasBazaJugador">
+      <modelElement href="EscobaDe15_2021.uml#_J-wGolIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7ZFIAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_KEe7ZVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_KEe7ZlIAEeyMo-Y4_C88Kg" name="cantidadCartasJugador">
+      <modelElement href="EscobaDe15_2021.uml#_J-wGo1IAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7Z1IAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_KEe7aFIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_KEe7aVIAEeyMo-Y4_C88Kg">
+        <modelElement href="EscobaDe15_2021.uml#_J-wtsFIAEeyMo-Y4_C88Kg"/>
+        <type xmi:id="_KEe7alIAEeyMo-Y4_C88Kg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_KEe7a1IAEeyMo-Y4_C88Kg" name="repartir">
+      <modelElement href="EscobaDe15_2021.uml#_J-wtsVIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7bFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_KEe7bVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_KEe7blIAEeyMo-Y4_C88Kg" name="esperarEnter">
+      <modelElement href="EscobaDe15_2021.uml#_J-wtslIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7b1IAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_KEe7cFIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_KEe7cVIAEeyMo-Y4_C88Kg" name="puntosActualizados">
+      <modelElement href="EscobaDe15_2021.uml#_J-wts1IAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7clIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_KEe7c1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_KEe7dFIAEeyMo-Y4_C88Kg" name="finJuego">
+      <modelElement href="EscobaDe15_2021.uml#_J-wttFIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7dVIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_KEe7dlIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_KEe7d1IAEeyMo-Y4_C88Kg" name="puntos">
+      <modelElement href="EscobaDe15_2021.uml#_J-xUwFIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7eFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_KEe7eVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_KEe7elIAEeyMo-Y4_C88Kg" name="iniciarJuego">
+      <modelElement href="EscobaDe15_2021.uml#_J-xUwVIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7e1IAEeyMo-Y4_C88Kg" label="-"/>
+      <cardinality xmi:id="_KEe7fFIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_KEe7fVIAEeyMo-Y4_C88Kg" name="notificarMensaje">
+      <modelElement href="EscobaDe15_2021.uml#_J-xUwlIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7flIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_KEe7f1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_KEe7gFIAEeyMo-Y4_C88Kg" name="mensaje">
+        <modelElement href="EscobaDe15_2021.uml#_J-xUw1IAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_KEe7gVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_KEe7glIAEeyMo-Y4_C88Kg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_KEe7g1IAEeyMo-Y4_C88Kg" name="turno">
+      <modelElement href="EscobaDe15_2021.uml#_J-x70FIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7hFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_KEe7hVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_KEe7hlIAEeyMo-Y4_C88Kg" name="nombre">
+        <modelElement href="EscobaDe15_2021.uml#_J-x70VIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_KEe7h1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_KEe7iFIAEeyMo-Y4_C88Kg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_KEe7iVIAEeyMo-Y4_C88Kg" name="setControlador">
+      <modelElement href="EscobaDe15_2021.uml#_J_JIMFIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7ilIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_KEe7i1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_KEe7jFIAEeyMo-Y4_C88Kg" name="controlador">
+        <modelElement href="EscobaDe15_2021.uml#_J_JIMVIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_KEe7jVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_KEe7jlIAEeyMo-Y4_C88Kg" name="Controlador">
+          <modelElement href="EscobaDe15_2021.uml#_Fqwh4FIAEeyMo-Y4_C88Kg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_KEe7j1IAEeyMo-Y4_C88Kg" name="mostrarCartasMesa">
+      <modelElement href="EscobaDe15_2021.uml#_J_JvQFIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7kFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_KEe7kVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_KEe7klIAEeyMo-Y4_C88Kg" name="cartas">
+        <modelElement href="EscobaDe15_2021.uml#_J_JvQVIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_KEe7k1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_KEe7lFIAEeyMo-Y4_C88Kg" name="List">
+          <modelElement href="EscobaDe15_2021.uml#_lJYDYEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_KEe7lVIAEeyMo-Y4_C88Kg" name="mostrarCartasJugador">
+      <modelElement href="EscobaDe15_2021.uml#_J_K9YFIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7llIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_KEe7l1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_KEe7mFIAEeyMo-Y4_C88Kg" name="cartas">
+        <modelElement href="EscobaDe15_2021.uml#_J_K9YVIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_KEe7mVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_KEe7mlIAEeyMo-Y4_C88Kg" name="List">
+          <modelElement href="EscobaDe15_2021.uml#_lJYDYEmFEeyyKtPopmqFNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_KEe7m1IAEeyMo-Y4_C88Kg" name="mostrarGanador">
+      <modelElement href="EscobaDe15_2021.uml#_J_LkcVIAEeyMo-Y4_C88Kg"/>
+      <visibility xmi:id="_KEe7nFIAEeyMo-Y4_C88Kg" label="+"/>
+      <cardinality xmi:id="_KEe7nVIAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_KEe7nlIAEeyMo-Y4_C88Kg" name="jugador">
+        <modelElement href="EscobaDe15_2021.uml#_J_LkclIAEeyMo-Y4_C88Kg"/>
+        <cardinality xmi:id="_KEe7n1IAEeyMo-Y4_C88Kg" label="1" max="1" min="1"/>
+        <type xmi:id="_KEe7oFIAEeyMo-Y4_C88Kg" name="Jugador">
+          <modelElement href="EscobaDe15_2021.uml#_1ust0FH_EeyMo-Y4_C88Kg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_MRdJEFIAEeyMo-Y4_C88Kg" name="Estado">
+    <modelElement href="EscobaDe15_2021.uml#_5LlEYFH_EeyMo-Y4_C88Kg"/>
+    <visualProperties xmi:id="_MRdJEVIAEeyMo-Y4_C88Kg" position="446.0,657.0"/>
+    <stereotypes xmi:id="_MRdJElIAEeyMo-Y4_C88Kg" name="LegacyStyledElement">
+      <modelElement href="EscobaDe15_2021.uml#_MMr90FIAEeyMo-Y4_C88Kg"/>
+    </stereotypes>
+    <visibility xmi:id="_MRdJE1IAEeyMo-Y4_C88Kg" label="+"/>
+    <literals xmi:id="_MRdJFFIAEeyMo-Y4_C88Kg" name="CONFIGURANDO">
+      <modelElement href="EscobaDe15_2021.uml#_MMsk4FIAEeyMo-Y4_C88Kg"/>
+    </literals>
+    <literals xmi:id="_MRdJFVIAEeyMo-Y4_C88Kg" name="JUGANDO">
+      <modelElement href="EscobaDe15_2021.uml#_MMsk4VIAEeyMo-Y4_C88Kg"/>
+    </literals>
+    <literals xmi:id="_MRdJFlIAEeyMo-Y4_C88Kg" name="FIN_MANO">
+      <modelElement href="EscobaDe15_2021.uml#_MMsk4lIAEeyMo-Y4_C88Kg"/>
+    </literals>
+    <literals xmi:id="_MRdJF1IAEeyMo-Y4_C88Kg" name="FIN_RONDA">
+      <modelElement href="EscobaDe15_2021.uml#_MMsk41IAEeyMo-Y4_C88Kg"/>
+    </literals>
+    <literals xmi:id="_MRdJGFIAEeyMo-Y4_C88Kg" name="FINALIZADO">
+      <modelElement href="EscobaDe15_2021.uml#_MMsk5FIAEeyMo-Y4_C88Kg"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_OJwHcFIAEeyMo-Y4_C88Kg" name="EventosEscoba">
+    <modelElement href="EscobaDe15_2021.uml#_5Lm5kFH_EeyMo-Y4_C88Kg"/>
+    <visualProperties xmi:id="_OJwHcVIAEeyMo-Y4_C88Kg" position="460.0,-112.0"/>
+    <visibility xmi:id="_OJwHclIAEeyMo-Y4_C88Kg" label="+"/>
+    <literals xmi:id="_OJwHc1IAEeyMo-Y4_C88Kg" name="JUEGOINICIADO">
+      <modelElement href="EscobaDe15_2021.uml#_OFLwgFIAEeyMo-Y4_C88Kg"/>
+    </literals>
+    <literals xmi:id="_OJwHdFIAEeyMo-Y4_C88Kg" name="JUEGOFINALIZADO">
+      <modelElement href="EscobaDe15_2021.uml#_OFLwgVIAEeyMo-Y4_C88Kg"/>
+    </literals>
+    <literals xmi:id="_OJwHdVIAEeyMo-Y4_C88Kg" name="RONDAFINALIDAZA">
+      <modelElement href="EscobaDe15_2021.uml#_OFMXkFIAEeyMo-Y4_C88Kg"/>
+    </literals>
+    <literals xmi:id="_OJwHdlIAEeyMo-Y4_C88Kg" name="MANOFINALIZADA">
+      <modelElement href="EscobaDe15_2021.uml#_OFMXkVIAEeyMo-Y4_C88Kg"/>
+    </literals>
+    <literals xmi:id="_OJwHd1IAEeyMo-Y4_C88Kg" name="JUGADORAGREGADO">
+      <modelElement href="EscobaDe15_2021.uml#_OFMXklIAEeyMo-Y4_C88Kg"/>
+    </literals>
+    <literals xmi:id="_OJwHeFIAEeyMo-Y4_C88Kg" name="MAXIMODEJUGADORES">
+      <modelElement href="EscobaDe15_2021.uml#_OFM-oFIAEeyMo-Y4_C88Kg"/>
+    </literals>
+    <literals xmi:id="_OJwHeVIAEeyMo-Y4_C88Kg" name="SUMA1">
+      <modelElement href="EscobaDe15_2021.uml#_OFM-oVIAEeyMo-Y4_C88Kg"/>
+    </literals>
+    <literals xmi:id="_OJwHelIAEeyMo-Y4_C88Kg" name="SUMA2">
+      <modelElement href="EscobaDe15_2021.uml#_OFM-olIAEeyMo-Y4_C88Kg"/>
+    </literals>
+    <literals xmi:id="_OJwHe1IAEeyMo-Y4_C88Kg" name="SUMAJ1">
+      <modelElement href="EscobaDe15_2021.uml#_OFNlsFIAEeyMo-Y4_C88Kg"/>
+    </literals>
+    <literals xmi:id="_OJwHfFIAEeyMo-Y4_C88Kg" name="SUMAJ2">
+      <modelElement href="EscobaDe15_2021.uml#_OFNlsVIAEeyMo-Y4_C88Kg"/>
+    </literals>
+    <literals xmi:id="_OJwHfVIAEeyMo-Y4_C88Kg" name="SUMAJ3">
+      <modelElement href="EscobaDe15_2021.uml#_OFOMwFIAEeyMo-Y4_C88Kg"/>
+    </literals>
+    <literals xmi:id="_OJwHflIAEeyMo-Y4_C88Kg" name="SUMAJ4">
+      <modelElement href="EscobaDe15_2021.uml#_OFOz0FIAEeyMo-Y4_C88Kg"/>
+    </literals>
+    <literals xmi:id="_OJwHf1IAEeyMo-Y4_C88Kg" name="EMPATE">
+      <modelElement href="EscobaDe15_2021.uml#_OFOz0VIAEeyMo-Y4_C88Kg"/>
+    </literals>
+    <literals xmi:id="_OJwHgFIAEeyMo-Y4_C88Kg" name="TURNOCAMBIADO">
+      <modelElement href="EscobaDe15_2021.uml#_OFOz0lIAEeyMo-Y4_C88Kg"/>
+    </literals>
+    <literals xmi:id="_OJwHgVIAEeyMo-Y4_C88Kg" name="ESCOBA_DE_MANO">
+      <modelElement href="EscobaDe15_2021.uml#_OFPa4FIAEeyMo-Y4_C88Kg"/>
+    </literals>
+  </nodes>
+  <requiredModelsLocators xmi:id="_NpSdMEmFEeyyKtPopmqFNw" location="/EscobaDe15_2021/src/ar/edu/unlu/escobaDe15/EscobaDe15_2021.uml"/>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

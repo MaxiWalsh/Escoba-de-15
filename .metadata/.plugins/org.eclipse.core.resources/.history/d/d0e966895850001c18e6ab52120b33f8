@@ -1,0 +1,30 @@
+package ar.edu.unlu.Ejecutable;
+
+import java.awt.EventQueue;
+
+
+
+public class Aplication {
+
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+			Mazo mazo = new Mazo();
+			Descarte descarte = new Descarte();
+			Juego juego = new Juego(mazo,descarte);
+			VistaConsola vista = new VistaConsola();
+				try {
+					Controlador controlador = new Controlador(vista, juego);
+					vista.setControlador(controlador);
+					vista.comenzarJuego();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		
+		});
+	}
+
+	}
+
+}

@@ -1,0 +1,1447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_f67HMFH5EeyRL-dezStVOw" name="EscobaDe15_2021">
+    <eAnnotations xmi:id="_hkWGoFH6EeyMo-Y4_C88Kg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_hkWtsFH6EeyMo-Y4_C88Kg" source="codegen">
+        <details xmi:id="_hkWtsVH6EeyMo-Y4_C88Kg" key="codegenDirectory" value="/EscobaDe15_2021/src"/>
+        <details xmi:id="_h4KagFH6EeyMo-Y4_C88Kg" key="AssociatedSourceCode" value="/EscobaDe15_2021/src/ar/edu/unlu/Modelo/Carta.java;3583243638/1;/EscobaDe15_2021/src/ar/edu/unlu/Modelo/Juego.java;1637587671/1;/EscobaDe15_2021/src/ar/edu/unlu/Modelo/Jugador.java;822021458/1;/EscobaDe15_2021/src/ar/edu/unlu/Modelo/Mazo.java;1515714886/1;/EscobaDe15_2021/src/ar/edu/unlu/Modelo/Mesa.java;3649786835/1;/EscobaDe15_2021/src/ar/edu/unlu/Modelo/Reglas.java;1612723884/1;/EscobaDe15_2021/src/ar/edu/unlu/Modelo/Ronda.java;3927228241/1;/EscobaDe15_2021/src/ar/edu/unlu/Modelo/Palo.java;1577530541/1;/EscobaDe15_2021/src/ar/edu/unlu/Modelo/EventosEscoba.java;3995850371/1;/EscobaDe15_2021/src/ar/edu/unlu/Modelo/Estado.java;1913579461/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_hkZJ8FH6EeyMo-Y4_C88Kg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_hkZJ8VH6EeyMo-Y4_C88Kg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_hkZxAFH6EeyMo-Y4_C88Kg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_hkZxAVH6EeyMo-Y4_C88Kg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_hkZxAlH6EeyMo-Y4_C88Kg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_hkZxA1H6EeyMo-Y4_C88Kg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_hkaYEFH6EeyMo-Y4_C88Kg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_hkaYEVH6EeyMo-Y4_C88Kg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_hkbmMFH6EeyMo-Y4_C88Kg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hj4zoFH6EeyMo-Y4_C88Kg" name="ar">
+      <packagedElement xmi:type="uml:Package" xmi:id="_hj4zoVH6EeyMo-Y4_C88Kg" name="edu">
+        <packagedElement xmi:type="uml:Package" xmi:id="_hj4zolH6EeyMo-Y4_C88Kg" name="unlu">
+          <packagedElement xmi:type="uml:Package" xmi:id="_hkCkoFH6EeyMo-Y4_C88Kg" name="Modelo">
+            <packagedElement xmi:type="uml:Class" xmi:id="_hkMVoFH6EeyMo-Y4_C88Kg" name="Carta">
+              <ownedAttribute xmi:id="_hnSF4FH6EeyMo-Y4_C88Kg" name="numero">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_hnSs8FH6EeyMo-Y4_C88Kg" name="palo" type="_hnKKEFH6EeyMo-Y4_C88Kg" association="_hnjLoFH6EeyMo-Y4_C88Kg"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hncd8FH6EeyMo-Y4_C88Kg" name="Carta" specification="_hnPpoFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_hncd8VH6EeyMo-Y4_C88Kg" name="numero">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_hncd8lH6EeyMo-Y4_C88Kg" name="palo" type="_hnKKEFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_hncd81H6EeyMo-Y4_C88Kg" type="_hkMVoFH6EeyMo-Y4_C88Kg" direction="return"/>
+                <language>java</language>
+                <body>this.setNumero(numero);&#xD;
+		this.setPalo(palo);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hnhWcFH6EeyMo-Y4_C88Kg" name="mostrarCarta" specification="_hkeCcFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_hnhWcVH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return &quot;[&quot; + numero + &quot; de &quot; + palo + &quot;]&quot;;		//retorna un String con la informacion de la carta&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_hkeCcFH6EeyMo-Y4_C88Kg" name="mostrarCarta" method="_hnhWcFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_hkf3oFH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_hnPpoFH6EeyMo-Y4_C88Kg" name="Carta" method="_hncd8FH6EeyMo-Y4_C88Kg">
+                <eAnnotations xmi:id="_hnQQsVH6EeyMo-Y4_C88Kg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_hnQQslH6EeyMo-Y4_C88Kg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_hnPpoVH6EeyMo-Y4_C88Kg" name="numero">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_hnQQsFH6EeyMo-Y4_C88Kg" name="palo" type="_hnKKEFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_hnQQs1H6EeyMo-Y4_C88Kg" type="_hkMVoFH6EeyMo-Y4_C88Kg" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Enumeration" xmi:id="_hnKKEFH6EeyMo-Y4_C88Kg" name="Palo">
+              <ownedLiteral xmi:id="_uQb-wVH6EeyMo-Y4_C88Kg" name="ESPADA"/>
+              <ownedLiteral xmi:id="_uQcl0FH6EeyMo-Y4_C88Kg" name="BASTO"/>
+              <ownedLiteral xmi:id="_uQcl0VH6EeyMo-Y4_C88Kg" name="ORO"/>
+              <ownedLiteral xmi:id="_uQcl0lH6EeyMo-Y4_C88Kg" name="COPA"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_hnjLoFH6EeyMo-Y4_C88Kg" name="" memberEnd="_hnSs8FH6EeyMo-Y4_C88Kg _hnjLoVH6EeyMo-Y4_C88Kg">
+              <ownedEnd xmi:id="_hnjLoVH6EeyMo-Y4_C88Kg" name="" type="_hkMVoFH6EeyMo-Y4_C88Kg" association="_hnjLoFH6EeyMo-Y4_C88Kg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_mmhnEFH6EeyMo-Y4_C88Kg" name="Juego">
+              <ownedAttribute xmi:id="_mpIPIFH6EeyMo-Y4_C88Kg" name="mazo" type="_moof4FH6EeyMo-Y4_C88Kg" association="_mpc_QFH6EeyMo-Y4_C88Kg"/>
+              <ownedAttribute xmi:id="_mpI2MFH6EeyMo-Y4_C88Kg" name="jugadores" type="_moq8IFH6EeyMo-Y4_C88Kg" isOrdered="true" association="_mph3wFH6EeyMo-Y4_C88Kg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mpI2MVH6EeyMo-Y4_C88Kg" value="*"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_mpI2MlH6EeyMo-Y4_C88Kg" value="new ArrayList&lt;>()"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_mpJdQFH6EeyMo-Y4_C88Kg" name="ronda" type="_mosxUFH6EeyMo-Y4_C88Kg" association="_mpdmUVH6EeyMo-Y4_C88Kg"/>
+              <ownedAttribute xmi:id="_mpJdQVH6EeyMo-Y4_C88Kg" name="reglas" type="_movNkFH6EeyMo-Y4_C88Kg" association="_mpdmU1H6EeyMo-Y4_C88Kg"/>
+              <ownedAttribute xmi:id="_mpKEUFH6EeyMo-Y4_C88Kg" name="mesa" type="_moxCwFH6EeyMo-Y4_C88Kg" association="_mpeNYVH6EeyMo-Y4_C88Kg"/>
+              <ownedAttribute xmi:id="_mpKrYFH6EeyMo-Y4_C88Kg" name="observadores" visibility="private" type="_moy38FH6EeyMo-Y4_C88Kg" isOrdered="true" association="_mpjF4VH6EeyMo-Y4_C88Kg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mpKrYVH6EeyMo-Y4_C88Kg" value="*"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_mpLScFH6EeyMo-Y4_C88Kg" value="new ArrayList&lt;>()"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_mpL5gFH6EeyMo-Y4_C88Kg" name="estadoJuego" type="_mo0tIFH6EeyMo-Y4_C88Kg" isReadOnly="true">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_mpL5gVH6EeyMo-Y4_C88Kg" value="Estado.CONFIGURANDO"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_mpMgkFH6EeyMo-Y4_C88Kg" name="jugadorActual">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_mpOVwFH6EeyMo-Y4_C88Kg" name="puntajeObjetivo" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_mpOVwVH6EeyMo-Y4_C88Kg" value="6"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_mpO80VH6EeyMo-Y4_C88Kg" name="ganador" type="_moq8IFH6EeyMo-Y4_C88Kg" isReadOnly="true" association="_mpkUAVH6EeyMo-Y4_C88Kg"/>
+              <ownedAttribute xmi:id="_mpPj4FH6EeyMo-Y4_C88Kg" name="ganadorRonda" visibility="private" type="_moq8IFH6EeyMo-Y4_C88Kg" association="_mpliIVH6EeyMo-Y4_C88Kg"/>
+              <ownedAttribute xmi:id="_mpQK8FH6EeyMo-Y4_C88Kg" name="ultimoJugadorEnLevantar" visibility="private" type="_moq8IFH6EeyMo-Y4_C88Kg" association="_mpmwQVH6EeyMo-Y4_C88Kg"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpUcYFH6EeyMo-Y4_C88Kg" name="Juego" specification="_mo3wcFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpUcYVH6EeyMo-Y4_C88Kg" name="mazo" type="_moof4FH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_mpUcYlH6EeyMo-Y4_C88Kg" name="mesa" type="_moxCwFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_mpUcY1H6EeyMo-Y4_C88Kg" type="_mmhnEFH6EeyMo-Y4_C88Kg" direction="return"/>
+                <language>java</language>
+                <body>this.setMazo(mazo);&#xD;
+		//this.setJugadores(jugadores);&#xD;
+		this.reglas = new Reglas(this.ronda);&#xD;
+		this.ronda = new Ronda();&#xD;
+		this.setMesa(mesa);&#xD;
+		//this.setObservadores(observadores);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpUcZFH6EeyMo-Y4_C88Kg" name="setObservadores" specification="_mo4-kFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpUcZVH6EeyMo-Y4_C88Kg" name="observadores" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <language>java</language>
+                <body>this.observadores = observadores;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpUcZlH6EeyMo-Y4_C88Kg" name="addObservador" specification="_mo7a0FH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpUcZ1H6EeyMo-Y4_C88Kg" name="observador" type="_moy38FH6EeyMo-Y4_C88Kg"/>
+                <language>java</language>
+                <body>observadores.add(observador);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpVDcFH6EeyMo-Y4_C88Kg" name="repartirCartas" specification="_mmntsFH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>for(Jugador jugador : this.jugadores) {&#xD;
+			Integer contador = 1;&#xD;
+			while (contador &lt;= 3) {&#xD;
+				jugador.agregarCartas(this.mazo.darCarta());&#xD;
+				contador++;&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpVDcVH6EeyMo-Y4_C88Kg" name="darCartasALaMesa" specification="_mmoUwFH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>Integer contador = 1;&#xD;
+		while (contador &lt;= 4) {&#xD;
+			this.mesa.agregarCarta(this.mazo.darCarta());&#xD;
+			contador++;&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpVDclH6EeyMo-Y4_C88Kg" name="iniciarJuego" specification="_mmoUwVH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>if (this.jugadores.size() &lt; 2) {&#xD;
+			notificarMensaje(&quot;Debe agregar jugadores&quot;);&#xD;
+		}&#xD;
+		else {&#xD;
+			notificarMensaje(&quot;Juego iniciado&quot;);&#xD;
+			this.estadoJuego = Estado.JUGANDO;&#xD;
+			reparteGeneral();&#xD;
+			notificarEvento(EventosEscoba.JUEGOINICIADO);&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpVDc1H6EeyMo-Y4_C88Kg" name="reparteGeneral" specification="_mmo70FH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>repartirCartas();&#xD;
+		darCartasALaMesa();&#xD;
+		mensajesGenerales();&#xD;
+		if (huboEscobaDeMano()) {&#xD;
+			recuperarJugadorActual().agregarABaza(mesa.getCartas());&#xD;
+			mesa.limpiarMesa();&#xD;
+			recuperarJugadorActual().incrementarPuntos();&#xD;
+			recuperarJugadorActual().aumentarEscobas();&#xD;
+			notificarEvento(EventosEscoba.ESCOBA_DE_MANO);&#xD;
+			mensajesGenerales();&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpVqgFH6EeyMo-Y4_C88Kg" name="mensajesGenerales" specification="_mmpi4FH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>notificarCartasDeLaMesa(mesa.getCartas());&#xD;
+		notificarTurno(recuperarJugadorActual().getNombre());&#xD;
+		notificarCartasJugador();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpVqgVH6EeyMo-Y4_C88Kg" name="notificarCartasJugador" specification="_mmpi4VH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>for (Observador o : observadores) {&#xD;
+			o.notificarCartasJugador(this.recuperarJugadorActual().getCartas());&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpVqglH6EeyMo-Y4_C88Kg" name="notificarCartasDeLaMesa" specification="_mo8B4FH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpVqg1H6EeyMo-Y4_C88Kg" name="cartas" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <language>java</language>
+                <body>for (Observador o : observadores) {&#xD;
+			o.notificarCartasDeLaMesa(cartas);&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpWRkFH6EeyMo-Y4_C88Kg" name="notificarTurno" specification="_mmqxAFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpWRkVH6EeyMo-Y4_C88Kg" name="nombre">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>for (Observador o : observadores) {&#xD;
+			o.notificarTurno(nombre);&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpWRklH6EeyMo-Y4_C88Kg" name="notificarGanador" specification="_mo-eIFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpWRk1H6EeyMo-Y4_C88Kg" name="jugador" type="_moq8IFH6EeyMo-Y4_C88Kg"/>
+                <language>java</language>
+                <body>for (Observador o : observadores) {&#xD;
+			o.notificarGanador(this.ganador);&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpW4oFH6EeyMo-Y4_C88Kg" name="notificarEvento" specification="_mpATUVH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpW4oVH6EeyMo-Y4_C88Kg" name="evento" type="_mo_FMFH6EeyMo-Y4_C88Kg"/>
+                <language>java</language>
+                <body>for (Observador o : observadores) {&#xD;
+			o.notificarEvento(evento);&#xD;
+			}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpW4olH6EeyMo-Y4_C88Kg" name="agregarJugador" specification="_mmrYEFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpW4o1H6EeyMo-Y4_C88Kg" name="nombre">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (jugadores.size() &lt; 2) {&#xD;
+			jugadores.add(new Jugador(nombre));&#xD;
+			notificarMensaje(&quot;Jugador agregado&quot;);&#xD;
+		} else {&#xD;
+			notificarMensaje(&quot;Maximo de jugadores agregados.&quot;);&#xD;
+		}&#xD;
+		&#xD;
+		&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpW4pFH6EeyMo-Y4_C88Kg" name="notificarMensaje" specification="_mmsmMFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpW4pVH6EeyMo-Y4_C88Kg" name="mensaje">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>for (Observador o : observadores) {&#xD;
+			o.notificarMensaje(mensaje);&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpXfsFH6EeyMo-Y4_C88Kg" name="cambiarAJuegoFinalizado" specification="_mmtNQFH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>boolean juegoTerminado = false;&#xD;
+		Integer i = 0;&#xD;
+		while ((i &lt; jugadores.size()) &amp;&amp; !(juegoTerminado)) {&#xD;
+			if ( jugadores.get(i).getPuntos() >= this.puntajeObjetivo) { &#xD;
+				juegoTerminado = true;&#xD;
+				this.ganador = jugadores.get(i);&#xD;
+				this.estadoJuego = Estado.FINALIZADO;&#xD;
+				notificarEvento(EventosEscoba.JUEGOFINALIZADO);&#xD;
+			}&#xD;
+			i++;&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpXfsVH6EeyMo-Y4_C88Kg" name="actualizarPuntosJugadores" specification="_mmtNQVH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>ronda.actualizarPuntos(this.jugadores);&#xD;
+		cambiarAJuegoFinalizado();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpXfslH6EeyMo-Y4_C88Kg" name="mostrarCartasMesa" specification="_mmt0UFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpYGwFH6EeyMo-Y4_C88Kg" type="_hkMVoFH6EeyMo-Y4_C88Kg" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mpYGwVH6EeyMo-Y4_C88Kg" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return mesa.getCartas();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpYGwlH6EeyMo-Y4_C88Kg" name="cambiarJugador" specification="_mmvpgFH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>jugadorActual++;&#xD;
+		if (jugadorActual == jugadores.size())&#xD;
+			jugadorActual = 0;&#xD;
+		&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpYGw1H6EeyMo-Y4_C88Kg" name="cartasJugadorActual" specification="_mmvpgVH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpYGxFH6EeyMo-Y4_C88Kg" type="_hkMVoFH6EeyMo-Y4_C88Kg" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mpYGxVH6EeyMo-Y4_C88Kg" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return jugadores.get(jugadorActual).getCartas();&#xD;
+		&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpYt0FH6EeyMo-Y4_C88Kg" name="limpiarJuego" specification="_mmys0FH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>for (Jugador jugador : this.jugadores) {&#xD;
+			jugador.limpiarMano();&#xD;
+			jugador.limpiarBaza();&#xD;
+		}&#xD;
+		mazo.llenarMazo();&#xD;
+		mazo.mezclarMazo();&#xD;
+		mesa.limpiarMesa();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpYt0VH6EeyMo-Y4_C88Kg" name="tirarCarta" specification="_mmzT4FH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpYt0lH6EeyMo-Y4_C88Kg" name="numero">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.mesa.agregarCarta(recuperarJugadorActual().tirarCarta(numero));&#xD;
+		if (ronda.comprobarFinDeRonda(this.mazo, this.jugadores)) {&#xD;
+			juntarCartasSobrantes();&#xD;
+			actualizarPuntosJugadores();&#xD;
+			if (this.estadoJuego != Estado.FINALIZADO) {&#xD;
+				actualizarGanadorRonda();	&#xD;
+				notificarEvento(EventosEscoba.RONDAFINALIDAZA);&#xD;
+				reparteGeneral();&#xD;
+			}&#xD;
+			else {&#xD;
+				actualizarGanadorJuego();&#xD;
+				notificarGanador(ganador);&#xD;
+			}&#xD;
+		}&#xD;
+		else {&#xD;
+			cambiarJugador();&#xD;
+			if (reglas.esFinDeMano(this.jugadores)) {&#xD;
+				notificarEvento(EventosEscoba.MANOFINALIZADA);&#xD;
+				repartirCartas();&#xD;
+			}&#xD;
+			mensajesGenerales();&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpYt01H6EeyMo-Y4_C88Kg" name="recuperarJugadorActual" specification="_mmz68FH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpYt1FH6EeyMo-Y4_C88Kg" type="_moq8IFH6EeyMo-Y4_C88Kg" direction="return"/>
+                <language>java</language>
+                <body>return this.jugadores.get(jugadorActual);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpZU4FH6EeyMo-Y4_C88Kg" name="cantidadCartasJugadorActual" specification="_mm0iAFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpZU4VH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.jugadores.get(jugadorActual).cantidadDeCartas();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpZU4lH6EeyMo-Y4_C88Kg" name="levantarCartas" specification="_mpBhcFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpZU41H6EeyMo-Y4_C88Kg" name="numero">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_mpZU5FH6EeyMo-Y4_C88Kg" name="cartas" type="_moQFYFH6EeyMo-Y4_C88Kg"/>
+                <language>java</language>
+                <body>List&lt;Carta> cartasDeLaMesa = mesa.juntarCartas(cartas);&#xD;
+		List&lt;Carta> posibleLevantada = recuperarJugadorActual().levantarCartas(numero, cartasDeLaMesa);&#xD;
+		if (reglas.verificarSuma15(posibleLevantada)){															//Si cumple con la condicion&#xD;
+			recuperarJugadorActual().agregarABaza(posibleLevantada);											//Se guarda en la baza las cartas&#xD;
+			this.ultimoJugadorEnLevantar = recuperarJugadorActual();											//Guarda el ultimo jugador en levantar&#xD;
+			notificarMensaje(&quot;Cartas levantadas.&quot;);&#xD;
+			//ronda.setUltimoJugadorEnLevantar(recuperarJugadorActual());		&#xD;
+			recuperarJugadorActual().sacarCarta(numero);														//Saco de la mano del jugador la carta que uso para levantar&#xD;
+			mesa.sacarCartas(cartasDeLaMesa);																	//Saco de la mesa las cartas que eligió el jugador&#xD;
+			if (mesa.cantidadDeCartas() == 0) {																	//Verificacion para saber si hizo escoba&#xD;
+				recuperarJugadorActual().aumentarEscobas();														//Aumento la cantidad de escobas&#xD;
+				recuperarJugadorActual().incrementarPuntos();													//Incremento la cantidad de puntos&#xD;
+				notificarMensaje(&quot;Ha hecho una escoba!&quot;);&#xD;
+			}&#xD;
+			if (reglas.levanto7DeOro(posibleLevantada)) {														//Verificacion para saber si levantó el 7 de oro&#xD;
+				recuperarJugadorActual().incrementarPuntos();													//En caso de que si, aumento los puntos&#xD;
+				notificarMensaje(&quot;Ha levantado el 7 de oro!&quot;);&#xD;
+			}&#xD;
+			&#xD;
+			if (ronda.comprobarFinDeRonda(this.mazo, this.jugadores)) {										//Verifico si se llego al fin de la RONDA&#xD;
+				juntarCartasSobrantes();																		//Aqui le otorgo al ultimo jugador en levantar las cartas sobrantes en la mesa&#xD;
+				actualizarPuntosJugadores();																	//Llamo al metodo para actualizar los puntos de los jugadores&#xD;
+				if (this.estadoJuego != Estado.FINALIZADO) {													//Si anteriormente NO se cambio el estado del juego, entonces solo termino la ronda&#xD;
+					actualizarGanadorRonda();																		//Actualizo el ganador de la ronda y limpio el juego para la proxima ronda(dentro del metodo)&#xD;
+					notificarEvento(EventosEscoba.RONDAFINALIDAZA);													//Notifico al controlador que termino la ronda&#xD;
+					reparteGeneral();																				//Luego, se vuelve a repartir&#xD;
+				}		&#xD;
+				else {																							//En el caso de que SI haya cambiado el estado del juego																							&#xD;
+					actualizarGanadorJuego();																	//Se actualiza el ganador del juego&#xD;
+					notificarGanador(ganador);																	//Y se notifica el ganador de la PARTIDA&#xD;
+				}&#xD;
+			}&#xD;
+			else {																							//En caso de que no se haya llegado al fin de la ronda&#xD;
+				cambiarJugador();																				//Cambio el turno del jugador&#xD;
+				if (reglas.esFinDeMano(this.jugadores)) {														//Verifico si fue el fin de la MANO&#xD;
+					notificarEvento(EventosEscoba.MANOFINALIZADA);													//Se notifica que fue el fin de la mano&#xD;
+					repartirCartas();																				//Se reparten nuevamente cartas para el comienzo de una nueva mano&#xD;
+				}&#xD;
+				mensajesGenerales();																		//Muestro mensajes con la cartas de la mesa, de quien es el turno y las cartas de este ultimo&#xD;
+			}&#xD;
+		} else {&#xD;
+			notificarMensaje(&quot;Las cartas no suman 15. No se han levantado.&quot;);&#xD;
+			mensajesGenerales();&#xD;
+					}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpZ78FH6EeyMo-Y4_C88Kg" name="seleccionarCartasMesa" specification="_mm1wIFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpZ78VH6EeyMo-Y4_C88Kg" type="_hkMVoFH6EeyMo-Y4_C88Kg" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mpZ78lH6EeyMo-Y4_C88Kg" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return null;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpZ781H6EeyMo-Y4_C88Kg" name="cantidadCartasMesa" specification="_mm2XMFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpZ79FH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return mesa.cantidadDeCartas();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpajAFH6EeyMo-Y4_C88Kg" name="nombreJugadorActual" specification="_mm3lUFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpajAVH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return recuperarJugadorActual().getNombre();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpajAlH6EeyMo-Y4_C88Kg" name="turnoJugadorActual" specification="_mm4MYFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpajA1H6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return recuperarJugadorActual().isTurno();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpajBFH6EeyMo-Y4_C88Kg" name="actualizarGanadorJuego" specification="_mm4zcVH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>Integer i = 0;&#xD;
+		Integer puntaje = -99;&#xD;
+		while (i &lt; this.jugadores.size()) {&#xD;
+			if (this.jugadores.get(i).getPuntos() > puntaje){&#xD;
+				puntaje = this.jugadores.get(i).getPuntos();&#xD;
+				ganador = this.jugadores.get(i);&#xD;
+			}&#xD;
+			i++;&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpajBVH6EeyMo-Y4_C88Kg" name="juntarCartasSobrantes" specification="_mm6BkFH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>if (mesa.cantidadDeCartas() != 0) {														//Si al finalizar la ronda hay cartas en la mesa&#xD;
+			this.ultimoJugadorEnLevantar.agregarABaza(mesa.getCartas());						//Se las queda el ultimo jugador que realizo una levantada&#xD;
+			mesa.limpiarMesa();															//Y luego se eliminan de la mesa&#xD;
+			&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpajBlH6EeyMo-Y4_C88Kg" name="cartasBazaJugador" specification="_mm6ooFH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>for (Jugador jugador : this.jugadores) {&#xD;
+			jugador.mostrarBaza();&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpbKEFH6EeyMo-Y4_C88Kg" name="getNombreGanadorRonda" specification="_mm6ooVH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpbKEVH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.ganadorRonda.getNombre();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpbKElH6EeyMo-Y4_C88Kg" name="actualizarGanadorRonda" specification="_mm7PsFH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>Integer puntosGanador = -99;&#xD;
+		Integer i = 0;&#xD;
+		while ((i &lt; jugadores.size())) {&#xD;
+			if ( jugadores.get(i).getPuntos() >= puntosGanador) { &#xD;
+				puntosGanador = jugadores.get(i).getPuntos();&#xD;
+				this.ganadorRonda = jugadores.get(i);&#xD;
+			}&#xD;
+			i++;&#xD;
+		}&#xD;
+		limpiarJuego();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mpbKE1H6EeyMo-Y4_C88Kg" name="huboEscobaDeMano" specification="_mm72wFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpbKFFH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return reglas.verificarSuma15(mesa.getCartas());&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_mmntsFH6EeyMo-Y4_C88Kg" name="repartirCartas" method="_mpVDcFH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_mmoUwFH6EeyMo-Y4_C88Kg" name="darCartasALaMesa" method="_mpVDcVH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_mmoUwVH6EeyMo-Y4_C88Kg" name="iniciarJuego" method="_mpVDclH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_mmo70FH6EeyMo-Y4_C88Kg" name="reparteGeneral" method="_mpVDc1H6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_mmpi4FH6EeyMo-Y4_C88Kg" name="mensajesGenerales" method="_mpVqgFH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_mmpi4VH6EeyMo-Y4_C88Kg" name="notificarCartasJugador" visibility="private" method="_mpVqgVH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_mmqxAFH6EeyMo-Y4_C88Kg" name="notificarTurno" visibility="private" method="_mpWRkFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mmqxAVH6EeyMo-Y4_C88Kg" name="nombre">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mmrYEFH6EeyMo-Y4_C88Kg" name="agregarJugador" method="_mpW4olH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mmr_IFH6EeyMo-Y4_C88Kg" name="nombre">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mmsmMFH6EeyMo-Y4_C88Kg" name="notificarMensaje" visibility="private" method="_mpW4pFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mmsmMVH6EeyMo-Y4_C88Kg" name="mensaje">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mmtNQFH6EeyMo-Y4_C88Kg" name="cambiarAJuegoFinalizado" method="_mpXfsFH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_mmtNQVH6EeyMo-Y4_C88Kg" name="actualizarPuntosJugadores" method="_mpXfsVH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_mmt0UFH6EeyMo-Y4_C88Kg" name="mostrarCartasMesa" method="_mpXfslH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mmt0UVH6EeyMo-Y4_C88Kg" type="_hkMVoFH6EeyMo-Y4_C88Kg" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mmubYFH6EeyMo-Y4_C88Kg" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mmvpgFH6EeyMo-Y4_C88Kg" name="cambiarJugador" method="_mpYGwlH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_mmvpgVH6EeyMo-Y4_C88Kg" name="cartasJugadorActual" method="_mpYGw1H6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mmwQkFH6EeyMo-Y4_C88Kg" type="_hkMVoFH6EeyMo-Y4_C88Kg" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mmw3oFH6EeyMo-Y4_C88Kg" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mmys0FH6EeyMo-Y4_C88Kg" name="limpiarJuego" method="_mpYt0FH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_mmzT4FH6EeyMo-Y4_C88Kg" name="tirarCarta" method="_mpYt0VH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mmzT4VH6EeyMo-Y4_C88Kg" name="numero">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mmz68FH6EeyMo-Y4_C88Kg" name="recuperarJugadorActual" method="_mpYt01H6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpA6YVH6EeyMo-Y4_C88Kg" type="_moq8IFH6EeyMo-Y4_C88Kg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mm0iAFH6EeyMo-Y4_C88Kg" name="cantidadCartasJugadorActual" method="_mpZU4FH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mm0iAVH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mm1wIFH6EeyMo-Y4_C88Kg" name="seleccionarCartasMesa" method="_mpZ78FH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mm1wIVH6EeyMo-Y4_C88Kg" type="_hkMVoFH6EeyMo-Y4_C88Kg" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mm1wIlH6EeyMo-Y4_C88Kg" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mm2XMFH6EeyMo-Y4_C88Kg" name="cantidadCartasMesa" method="_mpZ781H6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mm2-QFH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mm3lUFH6EeyMo-Y4_C88Kg" name="nombreJugadorActual" method="_mpajAFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mm3lUVH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mm4MYFH6EeyMo-Y4_C88Kg" name="turnoJugadorActual" method="_mpajAlH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mm4zcFH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mm4zcVH6EeyMo-Y4_C88Kg" name="actualizarGanadorJuego" method="_mpajBFH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_mm6BkFH6EeyMo-Y4_C88Kg" name="juntarCartasSobrantes" method="_mpajBVH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_mm6ooFH6EeyMo-Y4_C88Kg" name="cartasBazaJugador" method="_mpajBlH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_mm6ooVH6EeyMo-Y4_C88Kg" name="getNombreGanadorRonda" method="_mpbKEFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mm6oolH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mm7PsFH6EeyMo-Y4_C88Kg" name="actualizarGanadorRonda" method="_mpbKElH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_mm72wFH6EeyMo-Y4_C88Kg" name="huboEscobaDeMano" method="_mpbKE1H6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mm72wVH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mo3wcFH6EeyMo-Y4_C88Kg" name="Juego" method="_mpUcYFH6EeyMo-Y4_C88Kg">
+                <eAnnotations xmi:id="_mo4XgFH6EeyMo-Y4_C88Kg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_mo4XgVH6EeyMo-Y4_C88Kg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_mo3wcVH6EeyMo-Y4_C88Kg" name="mazo" type="_moof4FH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_mo3wclH6EeyMo-Y4_C88Kg" name="mesa" type="_moxCwFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_mo4XglH6EeyMo-Y4_C88Kg" type="_mmhnEFH6EeyMo-Y4_C88Kg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mo4-kFH6EeyMo-Y4_C88Kg" name="setObservadores" method="_mpUcZFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mo4-kVH6EeyMo-Y4_C88Kg" name="observadores" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mo7a0FH6EeyMo-Y4_C88Kg" name="addObservador" method="_mpUcZlH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mo7a0VH6EeyMo-Y4_C88Kg" name="observador" type="_moy38FH6EeyMo-Y4_C88Kg"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mo8B4FH6EeyMo-Y4_C88Kg" name="notificarCartasDeLaMesa" visibility="private" method="_mpVqglH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mo8B4VH6EeyMo-Y4_C88Kg" name="cartas" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mo-eIFH6EeyMo-Y4_C88Kg" name="notificarGanador" visibility="private" method="_mpWRklH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mo-eIVH6EeyMo-Y4_C88Kg" name="jugador" type="_moq8IFH6EeyMo-Y4_C88Kg"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mpATUVH6EeyMo-Y4_C88Kg" name="notificarEvento" method="_mpW4oFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpA6YFH6EeyMo-Y4_C88Kg" name="evento" type="_mo_FMFH6EeyMo-Y4_C88Kg"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_mpBhcFH6EeyMo-Y4_C88Kg" name="levantarCartas" method="_mpZU4lH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_mpBhcVH6EeyMo-Y4_C88Kg" name="numero">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_mpBhclH6EeyMo-Y4_C88Kg" name="cartas" type="_moQFYFH6EeyMo-Y4_C88Kg"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_moof4FH6EeyMo-Y4_C88Kg" name="Mazo">
+              <ownedAttribute xmi:id="_o8pw8FH6EeyMo-Y4_C88Kg" name="cartas" type="_hkMVoFH6EeyMo-Y4_C88Kg" isOrdered="true" isReadOnly="true" association="_o8s0QFH6EeyMo-Y4_C88Kg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o8qYAFH6EeyMo-Y4_C88Kg" value="*"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_o8qYAVH6EeyMo-Y4_C88Kg" value="new ArrayList&lt;>()"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o8rmIFH6EeyMo-Y4_C88Kg" name="Mazo" specification="_o8FJMFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_o8rmIVH6EeyMo-Y4_C88Kg" type="_moof4FH6EeyMo-Y4_C88Kg" direction="return"/>
+                <language>java</language>
+                <body>llenarMazo();&#xD;
+		mezclarMazo();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o8rmIlH6EeyMo-Y4_C88Kg" name="llenarMazo" specification="_o8GXUFH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>int i;&#xD;
+		for (i = 1;i &lt;= 10; i++) {&#xD;
+				this.cartas.add(new Carta(i,Palo.BASTO));&#xD;
+				this.cartas.add(new Carta(i,Palo.ESPADA));&#xD;
+				this.cartas.add(new Carta(i,Palo.ORO));&#xD;
+				this.cartas.add(new Carta(i,Palo.COPA));&#xD;
+			}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o8rmI1H6EeyMo-Y4_C88Kg" name="cantidadDeCartas" specification="_o8G-YFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_o8rmJFH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.cartas.size();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o8rmJVH6EeyMo-Y4_C88Kg" name="mezclarMazo" specification="_o8G-YlH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>Collections.shuffle(this.cartas);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o8sNMFH6EeyMo-Y4_C88Kg" name="darCarta" specification="_o8HlcFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_o8sNMVH6EeyMo-Y4_C88Kg" type="_hkMVoFH6EeyMo-Y4_C88Kg" direction="return"/>
+                <language>java</language>
+                <body>Carta carta = cartas.get(cartas.size() - 1);&#xD;
+			cartas.remove(cartas.size() - 1);&#xD;
+			return carta;&#xD;
+		&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_o8FJMFH6EeyMo-Y4_C88Kg" name="Mazo" method="_o8rmIFH6EeyMo-Y4_C88Kg">
+                <eAnnotations xmi:id="_o8FwQFH6EeyMo-Y4_C88Kg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_o8FwQVH6EeyMo-Y4_C88Kg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_o8FwQlH6EeyMo-Y4_C88Kg" type="_moof4FH6EeyMo-Y4_C88Kg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_o8GXUFH6EeyMo-Y4_C88Kg" name="llenarMazo" method="_o8rmIlH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_o8G-YFH6EeyMo-Y4_C88Kg" name="cantidadDeCartas" method="_o8rmI1H6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_o8G-YVH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_o8G-YlH6EeyMo-Y4_C88Kg" name="mezclarMazo" method="_o8rmJVH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_o8HlcFH6EeyMo-Y4_C88Kg" name="darCarta" method="_o8sNMFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_o8oi0FH6EeyMo-Y4_C88Kg" type="_hkMVoFH6EeyMo-Y4_C88Kg" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_moq8IFH6EeyMo-Y4_C88Kg" name="Jugador">
+              <ownedAttribute xmi:id="_naAScFH6EeyMo-Y4_C88Kg" name="nombre">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_naA5gFH6EeyMo-Y4_C88Kg" name="puntos">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_naA5gVH6EeyMo-Y4_C88Kg" name="escobas">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_naBgkFH6EeyMo-Y4_C88Kg" name="cartas" type="_hkMVoFH6EeyMo-Y4_C88Kg" isOrdered="true" isReadOnly="true" association="_naKDcFH6EeyMo-Y4_C88Kg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_naBgkVH6EeyMo-Y4_C88Kg" value="*"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_naBgklH6EeyMo-Y4_C88Kg" value="new ArrayList&lt;>()"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_naCHoFH6EeyMo-Y4_C88Kg" name="turno">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_naCHoVH6EeyMo-Y4_C88Kg" value="false"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_naCHolH6EeyMo-Y4_C88Kg" name="baza" type="_hkMVoFH6EeyMo-Y4_C88Kg" isOrdered="true" association="_naLRkVH6EeyMo-Y4_C88Kg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_naCHo1H6EeyMo-Y4_C88Kg" value="*"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_naCusFH6EeyMo-Y4_C88Kg" value="new ArrayList&lt;>()"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_naEj4FH6EeyMo-Y4_C88Kg" name="Jugador" specification="_nZZOcFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_naEj4VH6EeyMo-Y4_C88Kg" name="nombre">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_naEj4lH6EeyMo-Y4_C88Kg" type="_moq8IFH6EeyMo-Y4_C88Kg" direction="return"/>
+                <language>java</language>
+                <body>this.setNombre(nombre);&#xD;
+		this.setPuntos(0);&#xD;
+		this.setEscobas(0);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_naFK8FH6EeyMo-Y4_C88Kg" name="agregarCartas" specification="_nZ49sFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_naFK8VH6EeyMo-Y4_C88Kg" name="carta" type="_hkMVoFH6EeyMo-Y4_C88Kg"/>
+                <language>java</language>
+                <body>this.cartas.add(carta);						//agregar la carta a la mano del jugador&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_naFyAFH6EeyMo-Y4_C88Kg" name="tirarCarta" specification="_nZackFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_naFyAVH6EeyMo-Y4_C88Kg" name="numero">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_naFyAlH6EeyMo-Y4_C88Kg" type="_hkMVoFH6EeyMo-Y4_C88Kg" direction="return"/>
+                <language>java</language>
+                <body>Carta carta = cartas.get(numero - 1);					//Se guarda la carta elegida&#xD;
+		cartas.remove(carta);									//Se elimina de la mano del jugador&#xD;
+		return carta;											//retorna una carta que será agregada a la mesa&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_naGZEFH6EeyMo-Y4_C88Kg" name="levantarCartas" specification="_nZ6L0FH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_naGZEVH6EeyMo-Y4_C88Kg" name="numero">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_naGZElH6EeyMo-Y4_C88Kg" name="cartasMesa" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_naGZE1H6EeyMo-Y4_C88Kg" type="_hkMVoFH6EeyMo-Y4_C88Kg" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_naGZFFH6EeyMo-Y4_C88Kg" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>cartasMesa.add(recuperarCarta(numero));															//agrega a la lista de cartas que eligio de la mesa la carta de su mano&#xD;
+		//ArrayList&lt;Carta> cartasLevantadas = cartasMesa;								//se guarda esta lista en una nueva&#xD;
+		//cartas.remove(carta);															//se elimina la carta del jugador de su mano&#xD;
+		return cartasMesa;																//se retorna una lista que luego se verificara si suma 15&#xD;
+																						//en caso de que si, se agregara a la cartas de la baza&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_naGZFVH6EeyMo-Y4_C88Kg" name="recuperarCarta" specification="_nZbqsFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_naGZFlH6EeyMo-Y4_C88Kg" name="numero">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_naGZF1H6EeyMo-Y4_C88Kg" type="_hkMVoFH6EeyMo-Y4_C88Kg" direction="return"/>
+                <language>java</language>
+                <body>return this.cartas.get(numero);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_naGZGFH6EeyMo-Y4_C88Kg" name="agregarABaza" specification="_nZ8oEFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_naGZGVH6EeyMo-Y4_C88Kg" name="cartas" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <language>java</language>
+                <body>for (Carta carta : cartas) {&#xD;
+			this.baza.add(carta);&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_naHAIFH6EeyMo-Y4_C88Kg" name="incrementarPuntos" specification="_nZc40FH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>this.puntos++;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_naHAIVH6EeyMo-Y4_C88Kg" name="mostrarMano" specification="_nZc40VH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>for (Carta carta : cartas) {&#xD;
+			System.out.println(carta.mostrarCarta());&#xD;
+		}&#xD;
+	&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_naHAIlH6EeyMo-Y4_C88Kg" name="mostrarBaza" specification="_nZdf4FH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>System.out.println(&quot;Cartas de: &quot; + this.getNombre());&#xD;
+		for (Carta carta : this.baza) {&#xD;
+			System.out.println(carta.mostrarCarta());&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_naHnMFH6EeyMo-Y4_C88Kg" name="limpiarMano" specification="_nZdf4VH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>this.cartas.clear();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_naHnMVH6EeyMo-Y4_C88Kg" name="limpiarBaza" specification="_nZdf4lH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>this.baza.clear();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_naHnMlH6EeyMo-Y4_C88Kg" name="cantidadDeCartas" specification="_nZeG8FH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_naHnM1H6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.cartas.size();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_naIOQFH6EeyMo-Y4_C88Kg" name="sacarCarta" specification="_nZeuAFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_naIOQVH6EeyMo-Y4_C88Kg" name="numero">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.cartas.remove(this.cartas.get(numero));&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_naIOQlH6EeyMo-Y4_C88Kg" name="aumentarEscobas" specification="_nZfVEFH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>this.escobas++;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_nZZOcFH6EeyMo-Y4_C88Kg" name="Jugador" method="_naEj4FH6EeyMo-Y4_C88Kg">
+                <eAnnotations xmi:id="_nZZ1gFH6EeyMo-Y4_C88Kg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_nZZ1gVH6EeyMo-Y4_C88Kg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_nZZOcVH6EeyMo-Y4_C88Kg" name="nombre">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_nZZ1glH6EeyMo-Y4_C88Kg" type="_moq8IFH6EeyMo-Y4_C88Kg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_nZackFH6EeyMo-Y4_C88Kg" name="tirarCarta" method="_naFyAFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_nZbDoFH6EeyMo-Y4_C88Kg" name="numero">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_nZ5kwFH6EeyMo-Y4_C88Kg" type="_hkMVoFH6EeyMo-Y4_C88Kg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_nZbqsFH6EeyMo-Y4_C88Kg" name="recuperarCarta" method="_naGZFVH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_nZbqsVH6EeyMo-Y4_C88Kg" name="numero">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_nZ8BAVH6EeyMo-Y4_C88Kg" type="_hkMVoFH6EeyMo-Y4_C88Kg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_nZc40FH6EeyMo-Y4_C88Kg" name="incrementarPuntos" method="_naHAIFH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_nZc40VH6EeyMo-Y4_C88Kg" name="mostrarMano" method="_naHAIVH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_nZdf4FH6EeyMo-Y4_C88Kg" name="mostrarBaza" method="_naHAIlH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_nZdf4VH6EeyMo-Y4_C88Kg" name="limpiarMano" method="_naHnMFH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_nZdf4lH6EeyMo-Y4_C88Kg" name="limpiarBaza" method="_naHnMVH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_nZeG8FH6EeyMo-Y4_C88Kg" name="cantidadDeCartas" method="_naHnMlH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_nZeG8VH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_nZeuAFH6EeyMo-Y4_C88Kg" name="sacarCarta" method="_naIOQFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_nZeuAVH6EeyMo-Y4_C88Kg" name="numero">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_nZfVEFH6EeyMo-Y4_C88Kg" name="aumentarEscobas" method="_naIOQlH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_nZ49sFH6EeyMo-Y4_C88Kg" name="agregarCartas" method="_naFK8FH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_nZ49sVH6EeyMo-Y4_C88Kg" name="carta" type="_hkMVoFH6EeyMo-Y4_C88Kg"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_nZ6L0FH6EeyMo-Y4_C88Kg" name="levantarCartas" method="_naGZEFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_nZ6L0VH6EeyMo-Y4_C88Kg" name="numero">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_nZ6L0lH6EeyMo-Y4_C88Kg" name="cartasMesa" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_nZ6L01H6EeyMo-Y4_C88Kg" type="_hkMVoFH6EeyMo-Y4_C88Kg" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nZ6L1FH6EeyMo-Y4_C88Kg" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_nZ8oEFH6EeyMo-Y4_C88Kg" name="agregarABaza" method="_naGZGFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_nZ8oEVH6EeyMo-Y4_C88Kg" name="cartas" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_mosxUFH6EeyMo-Y4_C88Kg" name="Ronda">
+              <ownedAttribute xmi:id="_spAt8FH6EeyMo-Y4_C88Kg" name="jugadores" visibility="private" type="_moq8IFH6EeyMo-Y4_C88Kg" isOrdered="true" association="_spFmcFH6EeyMo-Y4_C88Kg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_spBVAFH6EeyMo-Y4_C88Kg" value="*"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_spBVAVH6EeyMo-Y4_C88Kg" value="new ArrayList&lt;>()"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_spB8EFH6EeyMo-Y4_C88Kg" name="ultimoJugadorEnLevantar" type="_moq8IFH6EeyMo-Y4_C88Kg" association="_spEYUFH6EeyMo-Y4_C88Kg"/>
+              <ownedAttribute xmi:id="_spB8EVH6EeyMo-Y4_C88Kg" name="reglas" visibility="private" type="_movNkFH6EeyMo-Y4_C88Kg" association="_spGNgVH6EeyMo-Y4_C88Kg">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_spB8ElH6EeyMo-Y4_C88Kg" value="new Reglas(this)"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_spDKMFH6EeyMo-Y4_C88Kg" name="actualizarPuntos" specification="_so3kAFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_spDKMVH6EeyMo-Y4_C88Kg" name="jugadores" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <language>java</language>
+                <body>sumaPuntoPorCarta(jugadores);&#xD;
+		sumarPuntoPorSetenta(jugadores);&#xD;
+		sumaPuntoPorOro(jugadores);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_spDKMlH6EeyMo-Y4_C88Kg" name="comprobarFinDeRonda" specification="_so5ZMVH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_spDKM1H6EeyMo-Y4_C88Kg" name="mazo" type="_moof4FH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_spDKNFH6EeyMo-Y4_C88Kg" name="jugadores" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_spDKNVH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>boolean finDeRonda = true;&#xD;
+		Integer i = 0;&#xD;
+		while ((i &lt; jugadores.size()) &amp;&amp; finDeRonda) {&#xD;
+			if (!(jugadores.get(i).cantidadDeCartas() == 0)) &#xD;
+				finDeRonda = false;&#xD;
+			i++;&#xD;
+		}&#xD;
+		return finDeRonda &amp;&amp; mazo.getCartas().size() == 0;&#xD;
+		&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_spDKNlH6EeyMo-Y4_C88Kg" name="sumaPuntoPorOro" specification="_so7OYFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_spDKN1H6EeyMo-Y4_C88Kg" name="jugadores" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <language>java</language>
+                <body>Integer indice = 0;&#xD;
+		boolean bandera = true;&#xD;
+&#xD;
+		while (indice &lt; jugadores.size() &amp;&amp; bandera) {&#xD;
+			List&lt;Carta> cartasBaza = jugadores.get(indice).getBaza();&#xD;
+			Integer cantidadDeOro = 0;&#xD;
+			for (Carta carta : cartasBaza) {&#xD;
+				if (carta.getPalo() == Palo.ORO)&#xD;
+					cantidadDeOro++;&#xD;
+			}&#xD;
+			if (cantidadDeOro >= 6) {&#xD;
+				bandera = false;&#xD;
+				if (cantidadDeOro == 10) {&#xD;
+					sumarPuntoJugador(jugadores.get(indice));&#xD;
+					sumarPuntoJugador(jugadores.get(indice)); &#xD;
+				} else&#xD;
+					sumarPuntoJugador(jugadores.get(indice));&#xD;
+				&#xD;
+			}&#xD;
+			indice++;&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_spDKOFH6EeyMo-Y4_C88Kg" name="sumaPuntoPorCarta" specification="_so8cgFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_spDKOVH6EeyMo-Y4_C88Kg" name="jugadores" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <language>java</language>
+                <body>Integer indice = 0;&#xD;
+		boolean bandera = true;&#xD;
+&#xD;
+		while (indice &lt; jugadores.size() &amp;&amp; bandera) {&#xD;
+			List&lt;Carta> cartasBaza = jugadores.get(indice).getBaza();&#xD;
+			Integer cantidadDeOro = 0;&#xD;
+			for (Carta carta : cartasBaza) {&#xD;
+				if (carta.getPalo() == Palo.ORO)&#xD;
+					cantidadDeOro++;&#xD;
+			}&#xD;
+			if (cantidadDeOro >= 21) {&#xD;
+				bandera = false;&#xD;
+				sumarPuntoJugador(jugadores.get(indice));&#xD;
+			}&#xD;
+			indice++;&#xD;
+		}&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_spDxQFH6EeyMo-Y4_C88Kg" name="validacion7DeOro" specification="_so9DkVH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_spDxQVH6EeyMo-Y4_C88Kg" name="carta" type="_hkMVoFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_spDxQlH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>boolean resultado = false;&#xD;
+		if (validacion7(carta) &amp;&amp; (carta.getPalo() == Palo.ORO))&#xD;
+			resultado = true;&#xD;
+		return resultado;&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_spDxQ1H6EeyMo-Y4_C88Kg" name="validacion7" specification="_so9qoFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_spDxRFH6EeyMo-Y4_C88Kg" name="carta" type="_hkMVoFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_spDxRVH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>boolean resultado = false;&#xD;
+		if (carta.getNumero() == 7)&#xD;
+			resultado = true;&#xD;
+		return resultado;&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_spDxRlH6EeyMo-Y4_C88Kg" name="sumarPuntoPorSetenta" specification="_so-RsFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_spDxR1H6EeyMo-Y4_C88Kg" name="jugadores" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <language>java</language>
+                <body>Integer indice = 0;&#xD;
+		boolean bandera = true;&#xD;
+&#xD;
+		while (indice &lt; jugadores.size() &amp;&amp; bandera) {&#xD;
+			List&lt;Carta> cartasBaza = jugadores.get(indice).getBaza();&#xD;
+			Integer cantidadDe7 = 0;&#xD;
+			for (Carta carta : cartasBaza) {&#xD;
+				if (carta.getNumero() == 7)&#xD;
+					cantidadDe7++;&#xD;
+			}&#xD;
+			if (cantidadDe7 >= 3) {&#xD;
+				bandera = false;&#xD;
+				if (cantidadDe7 == 4) {&#xD;
+					sumarPuntoJugador(jugadores.get(indice));&#xD;
+					sumarPuntoJugador(jugadores.get(indice)); &#xD;
+				} else&#xD;
+					sumarPuntoJugador(jugadores.get(indice));&#xD;
+				&#xD;
+			} &#xD;
+			indice++;&#xD;
+&#xD;
+			}&#xD;
+		</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_spDxSFH6EeyMo-Y4_C88Kg" name="sumarPuntoJugador" specification="_so_f0VH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_spDxSVH6EeyMo-Y4_C88Kg" name="jugador" type="_moq8IFH6EeyMo-Y4_C88Kg"/>
+                <language>java</language>
+                <body>jugador.incrementarPuntos();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_soV_kFH6EeyMo-Y4_C88Kg" name="Ronda">
+                <eAnnotations xmi:id="_soWmoFH6EeyMo-Y4_C88Kg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_soWmoVH6EeyMo-Y4_C88Kg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_soXNsFH6EeyMo-Y4_C88Kg" type="_mosxUFH6EeyMo-Y4_C88Kg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_so3kAFH6EeyMo-Y4_C88Kg" name="actualizarPuntos" method="_spDKMFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_so4LEFH6EeyMo-Y4_C88Kg" name="jugadores" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_so5ZMVH6EeyMo-Y4_C88Kg" name="comprobarFinDeRonda" method="_spDKMlH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_so5ZMlH6EeyMo-Y4_C88Kg" name="mazo" type="_moof4FH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_so5ZM1H6EeyMo-Y4_C88Kg" name="jugadores" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_so6AQFH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_so7OYFH6EeyMo-Y4_C88Kg" name="sumaPuntoPorOro" method="_spDKNlH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_so7OYVH6EeyMo-Y4_C88Kg" name="jugadores" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_so8cgFH6EeyMo-Y4_C88Kg" name="sumaPuntoPorCarta" method="_spDKOFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_so8cgVH6EeyMo-Y4_C88Kg" name="jugadores" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_so9DkVH6EeyMo-Y4_C88Kg" name="validacion7DeOro" visibility="private" method="_spDxQFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_so9DklH6EeyMo-Y4_C88Kg" name="carta" type="_hkMVoFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_so9Dk1H6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_so9qoFH6EeyMo-Y4_C88Kg" name="validacion7" visibility="private" method="_spDxQ1H6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_so9qoVH6EeyMo-Y4_C88Kg" name="carta" type="_hkMVoFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_so9qolH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_so-RsFH6EeyMo-Y4_C88Kg" name="sumarPuntoPorSetenta" method="_spDxRlH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_so-RsVH6EeyMo-Y4_C88Kg" name="jugadores" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_so_f0VH6EeyMo-Y4_C88Kg" name="sumarPuntoJugador" method="_spDxSFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_so_f0lH6EeyMo-Y4_C88Kg" name="jugador" type="_moq8IFH6EeyMo-Y4_C88Kg"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_movNkFH6EeyMo-Y4_C88Kg" name="Reglas">
+              <ownedAttribute xmi:id="_r31vsFH6EeyMo-Y4_C88Kg" name="ronda" visibility="private" type="_mosxUFH6EeyMo-Y4_C88Kg" association="_r34L8FH6EeyMo-Y4_C88Kg"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_r32WwFH6EeyMo-Y4_C88Kg" name="Reglas" specification="_r3ua8FH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_r32WwVH6EeyMo-Y4_C88Kg" name="ronda" type="_mosxUFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_r32WwlH6EeyMo-Y4_C88Kg" type="_movNkFH6EeyMo-Y4_C88Kg" direction="return"/>
+                <language>java</language>
+                <body>this.ronda = ronda;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_r3290FH6EeyMo-Y4_C88Kg" name="verificarSuma15" specification="_r3vpEFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_r3290VH6EeyMo-Y4_C88Kg" name="cartas" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_r3290lH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>Integer acumulador = 0; &#xD;
+		for (Carta carta : cartas) {&#xD;
+			acumulador += carta.getNumero();&#xD;
+		}		&#xD;
+		return (acumulador == 15);&#xD;
+		&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_r32901H6EeyMo-Y4_C88Kg" name="validacion7DeOro" specification="_r3w3MFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_r3291FH6EeyMo-Y4_C88Kg" name="carta" type="_hkMVoFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_r3291VH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return (carta.getNumero() == 7) &amp;&amp; (carta.getPalo() == Palo.ORO);&#xD;
+		</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_r3291lH6EeyMo-Y4_C88Kg" name="esFinDeMano" specification="_r3xeQFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_r32911H6EeyMo-Y4_C88Kg" name="jugadores" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_r3292FH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>boolean finDeMano = true;&#xD;
+		Integer i = 0;&#xD;
+		while ((i &lt; jugadores.size()) &amp;&amp; finDeMano) {&#xD;
+			if (!(jugadores.get(i).cantidadDeCartas() == 0)) &#xD;
+				finDeMano = false;&#xD;
+			i++;&#xD;
+		}&#xD;
+		return finDeMano;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_r33k4FH6EeyMo-Y4_C88Kg" name="levanto7DeOro" specification="_r3ysYFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_r33k4VH6EeyMo-Y4_C88Kg" name="cartasLevantadas" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_r33k4lH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>boolean resultado = false;&#xD;
+		Integer i = 0;&#xD;
+		while ((i &lt; cartasLevantadas.size()) &amp;&amp; !(resultado)) {&#xD;
+			if (validacion7DeOro(cartasLevantadas.get(i))){&#xD;
+				resultado = true;&#xD;
+			}&#xD;
+			i++;&#xD;
+		}&#xD;
+		return resultado;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_r33k41H6EeyMo-Y4_C88Kg" name="sumarPuntoPorSetenta" specification="_r3z6gFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_r33k5FH6EeyMo-Y4_C88Kg" name="jugadores" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <language>java</language>
+                <body>//Integer[] arrayDe7 = { 0, 0, 0, 0 };&#xD;
+			Integer indice = 0;&#xD;
+			boolean bandera = true;&#xD;
+&#xD;
+			while (indice &lt; jugadores.size() &amp;&amp; bandera) {&#xD;
+				List&lt;Carta> cartasBaza = jugadores.get(indice).getBaza();&#xD;
+				Integer cantidadDe7 = 0;&#xD;
+				for (Carta carta : cartasBaza) {&#xD;
+					if (carta.getNumero() == 7)&#xD;
+						cantidadDe7++;&#xD;
+				}&#xD;
+				if (cantidadDe7 >= 3) {&#xD;
+					bandera = false;&#xD;
+					if (cantidadDe7 == 4) {&#xD;
+						ronda.sumarPuntoJugador(jugadores.get(indice));&#xD;
+						ronda.sumarPuntoJugador(jugadores.get(indice)); &#xD;
+					} else&#xD;
+						ronda.sumarPuntoJugador(jugadores.get(indice));&#xD;
+					&#xD;
+				} /*else&#xD;
+					arrayDe7[indice] = cantidadDe7; */&#xD;
+				indice++;&#xD;
+&#xD;
+			}&#xD;
+&#xD;
+		/*	if (bandera) {&#xD;
+				if (arrayDe7[0] == 2 &amp;&amp; !(arrayDe7[1] == 2 || arrayDe7[2] == 2 || arrayDe7[3] == 2)) {&#xD;
+					ronda.sumarPuntoJugador(jugadores.get(0));&#xD;
+				} else if (arrayDe7[1] == 2 &amp;&amp; !(arrayDe7[0] == 2 || arrayDe7[2] == 2 || arrayDe7[3] == 2)) {&#xD;
+					ronda.sumarPuntoJugador(jugadores.get(1));&#xD;
+				} else if (arrayDe7[2] == 2 &amp;&amp; !(arrayDe7[0] == 2 || arrayDe7[1] == 2 || arrayDe7[3] == 2)) {&#xD;
+					ronda.sumarPuntoJugador(jugadores.get(2));&#xD;
+				}else if (arrayDe7[3] == 2 &amp;&amp; !(arrayDe7[0] == 2 || arrayDe7[1] == 2 || arrayDe7[2] == 2)) {&#xD;
+					ronda.sumarPuntoJugador(jugadores.get(3));&#xD;
+				}&#xD;
+			} */&#xD;
+		</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_r3ua8FH6EeyMo-Y4_C88Kg" name="Reglas" method="_r32WwFH6EeyMo-Y4_C88Kg">
+                <eAnnotations xmi:id="_r3vCAFH6EeyMo-Y4_C88Kg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_r3vCAVH6EeyMo-Y4_C88Kg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_r3ua8VH6EeyMo-Y4_C88Kg" name="ronda" type="_mosxUFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_r3vCAlH6EeyMo-Y4_C88Kg" type="_movNkFH6EeyMo-Y4_C88Kg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_r3vpEFH6EeyMo-Y4_C88Kg" name="verificarSuma15" method="_r3290FH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_r3vpEVH6EeyMo-Y4_C88Kg" name="cartas" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_r3vpElH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_r3w3MFH6EeyMo-Y4_C88Kg" name="validacion7DeOro" method="_r32901H6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_r3w3MVH6EeyMo-Y4_C88Kg" name="carta" type="_hkMVoFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_r3w3MlH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_r3xeQFH6EeyMo-Y4_C88Kg" name="esFinDeMano" method="_r3291lH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_r3xeQVH6EeyMo-Y4_C88Kg" name="jugadores" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_r3xeQlH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_r3ysYFH6EeyMo-Y4_C88Kg" name="levanto7DeOro" method="_r33k4FH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_r3ysYVH6EeyMo-Y4_C88Kg" name="cartasLevantadas" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_r3ysYlH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_r3z6gFH6EeyMo-Y4_C88Kg" name="sumarPuntoPorSetenta" method="_r33k41H6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_r3z6gVH6EeyMo-Y4_C88Kg" name="jugadores" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_moxCwFH6EeyMo-Y4_C88Kg" name="Mesa">
+              <ownedAttribute xmi:id="_qWHeQFH6EeyMo-Y4_C88Kg" name="cartas" type="_hkMVoFH6EeyMo-Y4_C88Kg" isOrdered="true" association="_qWJ6gFH6EeyMo-Y4_C88Kg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qWHeQVH6EeyMo-Y4_C88Kg" value="*"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_qWHeQlH6EeyMo-Y4_C88Kg" value="new ArrayList&lt;>()"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qWIFUFH6EeyMo-Y4_C88Kg" name="mostrarCartas" specification="_qVyHElH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>for (Carta carta : cartas) {&#xD;
+			System.out.println(carta.mostrarCarta());&#xD;
+		}			&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qWIFUVH6EeyMo-Y4_C88Kg" name="juntarCartas" specification="_qWDz4FH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_qWIFUlH6EeyMo-Y4_C88Kg" name="cartas" type="_moQFYFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_qWIFU1H6EeyMo-Y4_C88Kg" type="_hkMVoFH6EeyMo-Y4_C88Kg" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qWIFVFH6EeyMo-Y4_C88Kg" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>List&lt;Carta> resultado = new ArrayList&lt;>();&#xD;
+		for (Integer i=0; i&lt;cartas.size(); i++) {&#xD;
+			resultado.add(this.cartas.get(cartas.get(i)));&#xD;
+		}&#xD;
+		&#xD;
+		return resultado;&#xD;
+		&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qWIsYFH6EeyMo-Y4_C88Kg" name="sacarCartas" specification="_qWFCAVH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_qWIsYVH6EeyMo-Y4_C88Kg" name="cartas" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+                <language>java</language>
+                <body>//this.cartas.removeAll(cartas);&#xD;
+		&#xD;
+		for (Carta carta : cartas) {&#xD;
+			this.cartas.remove(carta);&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qWIsYlH6EeyMo-Y4_C88Kg" name="limpiarMesa" specification="_qVyuIFH6EeyMo-Y4_C88Kg">
+                <language>java</language>
+                <body>this.cartas.clear();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qWIsY1H6EeyMo-Y4_C88Kg" name="agregarCarta" specification="_qWGQIVH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_qWIsZFH6EeyMo-Y4_C88Kg" name="carta" type="_hkMVoFH6EeyMo-Y4_C88Kg"/>
+                <language>java</language>
+                <body>this.cartas.add(carta);							//agrega la carta a la mesa&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qWIsZVH6EeyMo-Y4_C88Kg" name="cantidadDeCartas" specification="_qVyuIVH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_qWIsZlH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.cartas.size();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_qVxgAFH6EeyMo-Y4_C88Kg" name="Mesa">
+                <eAnnotations xmi:id="_qVxgAVH6EeyMo-Y4_C88Kg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_qVxgAlH6EeyMo-Y4_C88Kg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_qVyHEVH6EeyMo-Y4_C88Kg" type="_moxCwFH6EeyMo-Y4_C88Kg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_qVyHElH6EeyMo-Y4_C88Kg" name="mostrarCartas" method="_qWIFUFH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_qVyuIFH6EeyMo-Y4_C88Kg" name="limpiarMesa" method="_qWIsYlH6EeyMo-Y4_C88Kg"/>
+              <ownedOperation xmi:id="_qVyuIVH6EeyMo-Y4_C88Kg" name="cantidadDeCartas" method="_qWIsZVH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_qVyuIlH6EeyMo-Y4_C88Kg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_qWDz4FH6EeyMo-Y4_C88Kg" name="juntarCartas" method="_qWIFUVH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_qWDz4VH6EeyMo-Y4_C88Kg" name="cartas" type="_moQFYFH6EeyMo-Y4_C88Kg"/>
+                <ownedParameter xmi:id="_qWDz4lH6EeyMo-Y4_C88Kg" type="_hkMVoFH6EeyMo-Y4_C88Kg" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qWDz41H6EeyMo-Y4_C88Kg" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_qWFCAVH6EeyMo-Y4_C88Kg" name="sacarCartas" method="_qWIsYFH6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_qWFCAlH6EeyMo-Y4_C88Kg" name="cartas" type="_moShoFH6EeyMo-Y4_C88Kg"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_qWGQIVH6EeyMo-Y4_C88Kg" name="agregarCarta" method="_qWIsY1H6EeyMo-Y4_C88Kg">
+                <ownedParameter xmi:id="_qWGQIlH6EeyMo-Y4_C88Kg" name="carta" type="_hkMVoFH6EeyMo-Y4_C88Kg"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_moy38FH6EeyMo-Y4_C88Kg" name="Observador"/>
+            <packagedElement xmi:type="uml:Enumeration" xmi:id="_mo0tIFH6EeyMo-Y4_C88Kg" name="Estado">
+              <ownedLiteral xmi:id="_wsjb4VH6EeyMo-Y4_C88Kg" name="CONFIGURANDO"/>
+              <ownedLiteral xmi:id="_wsjb4lH6EeyMo-Y4_C88Kg" name="JUGANDO"/>
+              <ownedLiteral xmi:id="_wsjb41H6EeyMo-Y4_C88Kg" name="FIN_MANO"/>
+              <ownedLiteral xmi:id="_wskC8FH6EeyMo-Y4_C88Kg" name="FIN_RONDA"/>
+              <ownedLiteral xmi:id="_wskC8VH6EeyMo-Y4_C88Kg" name="FINALIZADO"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Enumeration" xmi:id="_mo_FMFH6EeyMo-Y4_C88Kg" name="EventosEscoba">
+              <ownedLiteral xmi:id="_v332oFH6EeyMo-Y4_C88Kg" name="JUEGOINICIADO"/>
+              <ownedLiteral xmi:id="_v332oVH6EeyMo-Y4_C88Kg" name="JUEGOFINALIZADO"/>
+              <ownedLiteral xmi:id="_v332olH6EeyMo-Y4_C88Kg" name="RONDAFINALIDAZA"/>
+              <ownedLiteral xmi:id="_v34dsFH6EeyMo-Y4_C88Kg" name="MANOFINALIZADA"/>
+              <ownedLiteral xmi:id="_v34dsVH6EeyMo-Y4_C88Kg" name="JUGADORAGREGADO"/>
+              <ownedLiteral xmi:id="_v34dslH6EeyMo-Y4_C88Kg" name="MAXIMODEJUGADORES"/>
+              <ownedLiteral xmi:id="_v34ds1H6EeyMo-Y4_C88Kg" name="SUMA1"/>
+              <ownedLiteral xmi:id="_v34dtFH6EeyMo-Y4_C88Kg" name="SUMA2"/>
+              <ownedLiteral xmi:id="_v34dtVH6EeyMo-Y4_C88Kg" name="SUMAJ1"/>
+              <ownedLiteral xmi:id="_v35EwFH6EeyMo-Y4_C88Kg" name="SUMAJ2"/>
+              <ownedLiteral xmi:id="_v35EwVH6EeyMo-Y4_C88Kg" name="SUMAJ3"/>
+              <ownedLiteral xmi:id="_v35EwlH6EeyMo-Y4_C88Kg" name="SUMAJ4"/>
+              <ownedLiteral xmi:id="_v35Ew1H6EeyMo-Y4_C88Kg" name="EMPATE"/>
+              <ownedLiteral xmi:id="_v35ExFH6EeyMo-Y4_C88Kg" name="TURNOCAMBIADO"/>
+              <ownedLiteral xmi:id="_v35ExVH6EeyMo-Y4_C88Kg" name="ESCOBA_DE_MANO"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_mpc_QFH6EeyMo-Y4_C88Kg" name="" memberEnd="_mpIPIFH6EeyMo-Y4_C88Kg _mpdmUFH6EeyMo-Y4_C88Kg">
+              <ownedEnd xmi:id="_mpdmUFH6EeyMo-Y4_C88Kg" name="" type="_mmhnEFH6EeyMo-Y4_C88Kg" association="_mpc_QFH6EeyMo-Y4_C88Kg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_mpdmUVH6EeyMo-Y4_C88Kg" name="" memberEnd="_mpJdQFH6EeyMo-Y4_C88Kg _mpdmUlH6EeyMo-Y4_C88Kg">
+              <ownedEnd xmi:id="_mpdmUlH6EeyMo-Y4_C88Kg" name="" type="_mmhnEFH6EeyMo-Y4_C88Kg" association="_mpdmUVH6EeyMo-Y4_C88Kg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_mpdmU1H6EeyMo-Y4_C88Kg" name="" memberEnd="_mpJdQVH6EeyMo-Y4_C88Kg _mpeNYFH6EeyMo-Y4_C88Kg">
+              <ownedEnd xmi:id="_mpeNYFH6EeyMo-Y4_C88Kg" name="" type="_mmhnEFH6EeyMo-Y4_C88Kg" association="_mpdmU1H6EeyMo-Y4_C88Kg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_mpeNYVH6EeyMo-Y4_C88Kg" name="" memberEnd="_mpKEUFH6EeyMo-Y4_C88Kg _mpeNYlH6EeyMo-Y4_C88Kg">
+              <ownedEnd xmi:id="_mpeNYlH6EeyMo-Y4_C88Kg" name="" type="_mmhnEFH6EeyMo-Y4_C88Kg" association="_mpeNYVH6EeyMo-Y4_C88Kg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_mph3wFH6EeyMo-Y4_C88Kg" name="" memberEnd="_mph3wVH6EeyMo-Y4_C88Kg _mpI2MFH6EeyMo-Y4_C88Kg">
+              <ownedEnd xmi:id="_mph3wVH6EeyMo-Y4_C88Kg" name="" type="_mmhnEFH6EeyMo-Y4_C88Kg" association="_mph3wFH6EeyMo-Y4_C88Kg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_mpjF4VH6EeyMo-Y4_C88Kg" name="" memberEnd="_mpjF4lH6EeyMo-Y4_C88Kg _mpKrYFH6EeyMo-Y4_C88Kg">
+              <ownedEnd xmi:id="_mpjF4lH6EeyMo-Y4_C88Kg" name="" type="_mmhnEFH6EeyMo-Y4_C88Kg" association="_mpjF4VH6EeyMo-Y4_C88Kg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_mpkUAVH6EeyMo-Y4_C88Kg" name="" memberEnd="_mpkUAlH6EeyMo-Y4_C88Kg _mpO80VH6EeyMo-Y4_C88Kg">
+              <ownedEnd xmi:id="_mpkUAlH6EeyMo-Y4_C88Kg" name="" type="_mmhnEFH6EeyMo-Y4_C88Kg" association="_mpkUAVH6EeyMo-Y4_C88Kg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_mpliIVH6EeyMo-Y4_C88Kg" name="" memberEnd="_mpliIlH6EeyMo-Y4_C88Kg _mpPj4FH6EeyMo-Y4_C88Kg">
+              <ownedEnd xmi:id="_mpliIlH6EeyMo-Y4_C88Kg" name="" type="_mmhnEFH6EeyMo-Y4_C88Kg" association="_mpliIVH6EeyMo-Y4_C88Kg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_mpmwQVH6EeyMo-Y4_C88Kg" name="" memberEnd="_mpmwQlH6EeyMo-Y4_C88Kg _mpQK8FH6EeyMo-Y4_C88Kg">
+              <ownedEnd xmi:id="_mpmwQlH6EeyMo-Y4_C88Kg" name="" type="_mmhnEFH6EeyMo-Y4_C88Kg" association="_mpmwQVH6EeyMo-Y4_C88Kg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_naKDcFH6EeyMo-Y4_C88Kg" name="" memberEnd="_naKDcVH6EeyMo-Y4_C88Kg _naBgkFH6EeyMo-Y4_C88Kg">
+              <ownedEnd xmi:id="_naKDcVH6EeyMo-Y4_C88Kg" name="" type="_moq8IFH6EeyMo-Y4_C88Kg" association="_naKDcFH6EeyMo-Y4_C88Kg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_naLRkVH6EeyMo-Y4_C88Kg" name="" memberEnd="_naLRklH6EeyMo-Y4_C88Kg _naCHolH6EeyMo-Y4_C88Kg">
+              <ownedEnd xmi:id="_naLRklH6EeyMo-Y4_C88Kg" name="" type="_moq8IFH6EeyMo-Y4_C88Kg" association="_naLRkVH6EeyMo-Y4_C88Kg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_o8s0QFH6EeyMo-Y4_C88Kg" name="" memberEnd="_o8s0QVH6EeyMo-Y4_C88Kg _o8pw8FH6EeyMo-Y4_C88Kg">
+              <ownedEnd xmi:id="_o8s0QVH6EeyMo-Y4_C88Kg" name="" type="_moof4FH6EeyMo-Y4_C88Kg" association="_o8s0QFH6EeyMo-Y4_C88Kg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_qWJ6gFH6EeyMo-Y4_C88Kg" name="" memberEnd="_qWJ6gVH6EeyMo-Y4_C88Kg _qWHeQFH6EeyMo-Y4_C88Kg">
+              <ownedEnd xmi:id="_qWJ6gVH6EeyMo-Y4_C88Kg" name="" type="_moxCwFH6EeyMo-Y4_C88Kg" association="_qWJ6gFH6EeyMo-Y4_C88Kg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_r34L8FH6EeyMo-Y4_C88Kg" name="" memberEnd="_r34L8VH6EeyMo-Y4_C88Kg _r31vsFH6EeyMo-Y4_C88Kg">
+              <ownedEnd xmi:id="_r34L8VH6EeyMo-Y4_C88Kg" name="" type="_movNkFH6EeyMo-Y4_C88Kg" association="_r34L8FH6EeyMo-Y4_C88Kg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_spEYUFH6EeyMo-Y4_C88Kg" name="" memberEnd="_spB8EFH6EeyMo-Y4_C88Kg _spEYUVH6EeyMo-Y4_C88Kg">
+              <ownedEnd xmi:id="_spEYUVH6EeyMo-Y4_C88Kg" name="" type="_mosxUFH6EeyMo-Y4_C88Kg" association="_spEYUFH6EeyMo-Y4_C88Kg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_spFmcFH6EeyMo-Y4_C88Kg" name="" memberEnd="_spFmcVH6EeyMo-Y4_C88Kg _spAt8FH6EeyMo-Y4_C88Kg">
+              <ownedEnd xmi:id="_spFmcVH6EeyMo-Y4_C88Kg" name="" type="_mosxUFH6EeyMo-Y4_C88Kg" association="_spFmcFH6EeyMo-Y4_C88Kg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_spGNgVH6EeyMo-Y4_C88Kg" name="" memberEnd="_spGNglH6EeyMo-Y4_C88Kg _spB8EVH6EeyMo-Y4_C88Kg">
+              <ownedEnd xmi:id="_spGNglH6EeyMo-Y4_C88Kg" name="" type="_mosxUFH6EeyMo-Y4_C88Kg" association="_spGNgVH6EeyMo-Y4_C88Kg"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ml7xMFH6EeyMo-Y4_C88Kg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ml8YQFH6EeyMo-Y4_C88Kg" name="lang">
+        <packagedElement xmi:type="uml:Package" xmi:id="_ml8YQVH6EeyMo-Y4_C88Kg" name="reflect">
+          <packagedElement xmi:type="uml:Class" xmi:id="_moNpIFH6EeyMo-Y4_C88Kg" name="Array"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ml8YQlH6EeyMo-Y4_C88Kg" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_moQFYFH6EeyMo-Y4_C88Kg" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_moShoFH6EeyMo-Y4_C88Kg" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_o8mGkFH6EeyMo-Y4_C88Kg" name="Collections"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_hkNjwFH6EeyMo-Y4_C88Kg">
+      <eAnnotations xmi:id="_hkROIFH6EeyMo-Y4_C88Kg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:Reference xmi:id="_moPeUFH6EeyMo-Y4_C88Kg" base_Element="_moNpIFH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Reference xmi:id="_moR6kFH6EeyMo-Y4_C88Kg" base_Element="_moQFYFH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Reference xmi:id="_moUW0FH6EeyMo-Y4_C88Kg" base_Element="_moShoFH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Reference xmi:id="_mo0GEFH6EeyMo-Y4_C88Kg" base_Element="_moy38FH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Generics xmi:id="_mo6zwFH6EeyMo-Y4_C88Kg" genericsValue="Observador" base_Element="_mo4-kVH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Generics xmi:id="_mo93EFH6EeyMo-Y4_C88Kg" genericsValue="Carta" base_Element="_mo8B4VH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Generics xmi:id="_mpDWoFH6EeyMo-Y4_C88Kg" genericsValue="Integer" base_Element="_mpBhclH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mpLScVH6EeyMo-Y4_C88Kg" base_Element="_mpKrYFH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mpMgkVH6EeyMo-Y4_C88Kg" base_Element="_mpMgkFH6EeyMo-Y4_C88Kg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_mpNHoFH6EeyMo-Y4_C88Kg" name="getJugadorActual" method="_mpTOQFH6EeyMo-Y4_C88Kg">
+      <ownedParameter xmi:id="_mpNusFH6EeyMo-Y4_C88Kg" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_mpNHoVH6EeyMo-Y4_C88Kg" name="setJugadorActual" method="_mpT1UVH6EeyMo-Y4_C88Kg">
+      <ownedParameter xmi:id="_mpNHolH6EeyMo-Y4_C88Kg" name="jugadorActual">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mpO80FH6EeyMo-Y4_C88Kg" base_Element="_mpOVwFH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mpPj4VH6EeyMo-Y4_C88Kg" base_Element="_mpPj4FH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mpQyAFH6EeyMo-Y4_C88Kg" base_Element="_mpQK8FH6EeyMo-Y4_C88Kg"/>
+  <uml:OpaqueBehavior xmi:id="_mpTOQFH6EeyMo-Y4_C88Kg" name="getJugadorActual" specification="_mpNHoFH6EeyMo-Y4_C88Kg">
+    <ownedParameter xmi:id="_mpT1UFH6EeyMo-Y4_C88Kg" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return jugadorActual;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_mpT1UVH6EeyMo-Y4_C88Kg" name="setJugadorActual" specification="_mpNHoVH6EeyMo-Y4_C88Kg">
+    <ownedParameter xmi:id="_mpT1UlH6EeyMo-Y4_C88Kg" name="jugadorActual">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.jugadorActual = jugadorActual;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_mpjF4FH6EeyMo-Y4_C88Kg" base_Element="_mph3wFH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Reference xmi:id="_mpkUAFH6EeyMo-Y4_C88Kg" base_Element="_mpjF4VH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Reference xmi:id="_mpliIFH6EeyMo-Y4_C88Kg" base_Element="_mpkUAVH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Reference xmi:id="_mpmwQFH6EeyMo-Y4_C88Kg" base_Element="_mpliIVH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Reference xmi:id="_mpn-YFH6EeyMo-Y4_C88Kg" base_Element="_mpmwQVH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Generics xmi:id="_nZ8BAFH6EeyMo-Y4_C88Kg" genericsValue="Carta" base_Element="_nZ6L0lH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Generics xmi:id="_nZ9PIFH6EeyMo-Y4_C88Kg" genericsValue="Carta" base_Element="_nZ8oEVH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Reference xmi:id="_naLRkFH6EeyMo-Y4_C88Kg" base_Element="_naKDcFH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Reference xmi:id="_naL4oFH6EeyMo-Y4_C88Kg" base_Element="_naLRkVH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Reference xmi:id="_o8nUsFH6EeyMo-Y4_C88Kg" base_Element="_o8mGkFH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Reference xmi:id="_o8uCYFH6EeyMo-Y4_C88Kg" base_Element="_o8s0QFH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qVyHEFH6EeyMo-Y4_C88Kg" base_Element="_qVxgAFH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Generics xmi:id="_qWFCAFH6EeyMo-Y4_C88Kg" genericsValue="Integer" base_Element="_qWDz4VH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Generics xmi:id="_qWGQIFH6EeyMo-Y4_C88Kg" genericsValue="Carta" base_Element="_qWFCAlH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Reference xmi:id="_qWKhkFH6EeyMo-Y4_C88Kg" base_Element="_qWJ6gFH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Generics xmi:id="_r3wQIFH6EeyMo-Y4_C88Kg" genericsValue="Carta" base_Element="_r3vpEVH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Generics xmi:id="_r3yFUFH6EeyMo-Y4_C88Kg" genericsValue="Jugador" base_Element="_r3xeQVH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Generics xmi:id="_r3zTcFH6EeyMo-Y4_C88Kg" genericsValue="Carta" base_Element="_r3ysYVH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Generics xmi:id="_r30hkFH6EeyMo-Y4_C88Kg" genericsValue="Jugador" base_Element="_r3z6gVH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_r31vsVH6EeyMo-Y4_C88Kg" base_Element="_r31vsFH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Reference xmi:id="_r34zAFH6EeyMo-Y4_C88Kg" base_Element="_r34L8FH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_soWmolH6EeyMo-Y4_C88Kg" base_Element="_soV_kFH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Generics xmi:id="_so5ZMFH6EeyMo-Y4_C88Kg" genericsValue="Jugador" base_Element="_so4LEFH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Generics xmi:id="_so6nUFH6EeyMo-Y4_C88Kg" genericsValue="Jugador" base_Element="_so5ZM1H6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Generics xmi:id="_so71cFH6EeyMo-Y4_C88Kg" genericsValue="Jugador" base_Element="_so7OYVH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Generics xmi:id="_so9DkFH6EeyMo-Y4_C88Kg" genericsValue="Jugador" base_Element="_so8cgVH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Generics xmi:id="_so_f0FH6EeyMo-Y4_C88Kg" genericsValue="Jugador" base_Element="_so-RsVH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_spBVAlH6EeyMo-Y4_C88Kg" base_Element="_spAt8FH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_spCjIFH6EeyMo-Y4_C88Kg" base_Element="_spB8EVH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Reference xmi:id="_spGNgFH6EeyMo-Y4_C88Kg" base_Element="_spFmcFH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:Reference xmi:id="_spG0kFH6EeyMo-Y4_C88Kg" base_Element="_spGNgVH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uQb-wFH6EeyMo-Y4_C88Kg" base_Element="_hnKKEFH6EeyMo-Y4_C88Kg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wsjb4FH6EeyMo-Y4_C88Kg" base_Element="_mo0tIFH6EeyMo-Y4_C88Kg"/>
+</xmi:XMI>

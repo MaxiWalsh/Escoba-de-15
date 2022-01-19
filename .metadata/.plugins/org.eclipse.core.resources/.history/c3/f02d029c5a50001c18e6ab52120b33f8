@@ -1,0 +1,11 @@
+package ar.edu.unlu.Ejecutable;
+
+import ar.edu.unlu.Vista.VistaConsola;
+
+public class Aplication {
+
+	public static void main(String[] args) {
+		
+
+}
+}

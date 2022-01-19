@@ -1,0 +1,22 @@
+INDEX VERSION 1.131+C:\Users\maxi-\Desktop\Escoba de 15\.metadata\.plugins\org.eclipse.jdt.core
+178395912.index
+1031926027.index
+730400072.index
+458556996.index
+1865797976.index
+1749001591.index
+4007200840.index
+20863922.index
+2313525672.index
+724443574.index
+335342633.index
+2809897433.index
+1438767341.index
+1091757759.index
+606929282.index
+459528640.index
+3725231233.index
+2555319238.index
+293742035.index
+2887602254.index
+2613502430.index

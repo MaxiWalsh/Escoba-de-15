@@ -1,0 +1,34 @@
+package ar.edu.unlu.Modelo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Mesa {
+	private List<Carta> cartas = new ArrayList<>();
+	//private int cantidadDeCartas;
+	
+	public Mesa() {
+		
+	}
+
+	
+	public void setCartas(List<Carta> cartas) {
+		this.cartas = cartas;
+	}
+	
+	
+	
+	
+	
+	//funcion para agregar cartas a la mesa
+	public void agregarCarta(Carta carta) {
+		this.cartas.add(carta);							//agrega la carta a la mesa
+	}
+	
+	
+	public void sacarCartas(ArrayList<Carta> cartasASacar) {
+		for(Carta carta : cartasASacar) {				//for each para recorrer la lista de cartas que se quieren eliminar
+			cartas.remove(carta);						//remueve la carta de la mesa
+		}
+	}
+}
